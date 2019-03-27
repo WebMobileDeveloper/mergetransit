@@ -1,0 +1,96 @@
+/**
+ * The module 23 styles.
+ *
+ * [Last update: 2018-09-14]
+ */
+
+
+.module-23 {
+
+	> .container {
+
+		.engine-label {
+			.margin-right( 5px );
+		}
+
+		.engine {
+			.margin-right( 30px );
+
+			.mark {
+				display: flex; //Incorrect line height.
+
+				i {
+					.size( 23px );
+				}
+
+				button {
+					padding: 0 2px;
+					cursor: pointer;
+
+					&.unmarked {
+
+					}
+
+					&.marked {
+						display: none;
+					}
+				}
+
+				&.selected {
+
+					.unmarked {
+						display: none;
+					}
+
+					.marked {
+						display: block;
+					}
+				}
+
+				&.hover,
+				&.hover ~ .mark {
+
+					.unmarked {
+						display: block;
+					}
+
+					.marked {
+						display: none;
+					}
+				}
+			}
+
+			&.hover {
+
+				.mark {
+
+					.unmarked {
+						display: none;
+					}
+
+					.marked {
+						display: block;
+					}
+				}
+			}
+		}
+
+		.rate-label {
+			.margin-right( 5px );
+		}
+
+		.rate-value {
+			.margin-right( 30px );
+			font-weight: 700;
+		}
+
+		.count-label {
+			.margin-right( 5px );
+		}
+
+		.count-value {
+			.margin-right( 30px );
+			font-weight: 700;
+		}
+	}
+}

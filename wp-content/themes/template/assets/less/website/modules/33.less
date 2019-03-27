@@ -1,0 +1,42 @@
+/**
+ * The module styles.
+ */
+
+
+.module-33 {
+	min-height: 100vh;
+
+	> .container {
+		width: 420px;
+
+		.caption {
+			.margin-top( 20px );
+			text-align: center;
+			color: @white;
+
+			&.hover {
+				color: @color-link;
+			}
+		}
+
+		@media ( max-width : 700px ) {
+			margin-top: 20px;
+		}
+	}
+
+	&.has-background {
+		padding-top: 300px;
+
+		@media ( max-width : 1050px ) {
+			padding-top: 150px;
+		}
+
+		@media ( max-width : 700px ) {
+			padding-top: 90px;
+		}
+	}
+
+	@media ( max-width : 700px ) {
+		min-height: 0;
+	}
+}

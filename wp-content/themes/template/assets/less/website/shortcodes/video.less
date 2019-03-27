@@ -1,0 +1,44 @@
+/**
+ * The [video] shortcode styles.
+ *
+ * [Last update: 2019-01-14]
+ */
+
+
+[id^="video-"] {
+	.margin-top( @distance*2 );
+	.margin-bottom( @distance*2 );
+	text-align: center;
+
+	.video-wrap {
+		display: inline-block;
+		position: relative;
+		
+		video {
+			background-color: @black;
+		}
+		
+		.play {
+			display: flex;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 30;
+			cursor: pointer;
+			
+			i {
+				color: @white;
+				.size( 60px );
+			}
+		
+			&.hover {
+				
+				i {
+					color: @color-link;
+				}
+			}
+		}
+	}
+}

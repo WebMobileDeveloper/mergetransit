@@ -1,0 +1,84 @@
+/**
+ * Script Name: Animations
+ * Script URI: none
+ * Description: The LESS animations.
+ * Project: Empty Template
+ * Author: Daniel Pietrasik
+ * Author URI: http://danielpietrasik.pl
+ * License: Commercial
+ * License URI: http://danielpietrasik.pl/commercial-license/
+ *
+ * [Last update: 2017-07-27]
+ */
+
+
+//Down & up animation.
+.animate-down-up() {
+	
+	&:before {
+		content: '';
+		display: block;
+		animation: animation-vertical 2s infinite ease-out;
+	}
+
+}
+
+
+//Up & down animation.
+.animate-up-down() {
+	
+	&:after {
+		content: '';
+		display: block;
+		animation: animation-vertical 2s infinite ease-out;
+	}
+
+}
+
+@keyframes animation-vertical {
+	0%,
+	50%,
+	100% {
+		padding-top: 0px;
+	}
+
+	25%,
+	75% {
+		padding-top: 10px;
+	}
+}
+
+
+//Left & right animation.
+.animate-left-right() {
+	
+	&:before {
+		content: '';
+		animation: animation-horizontal 2s infinite ease-out;
+	}
+
+}
+
+
+//Right & left animation.
+.animate-right-left() {
+	
+	&:after {
+		content: '';
+		animation: animation-horizontal 2s infinite ease-out;
+	}
+
+}
+
+@keyframes animation-horizontal {
+	0%,
+	50%,
+	100% {
+		padding-left: 0px;
+	}
+
+	25%,
+	75% {
+		padding-left: 30px;
+	}
+}

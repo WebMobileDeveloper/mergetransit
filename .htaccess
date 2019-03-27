@@ -1,0 +1,107 @@
+# Disabe folders acssess
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^wp-admin/includes(/)? - [F,L]
+	RewriteRule !^wp-includes/ - [S=3]
+		RewriteRule ^wp-includes/[^/]+\.(php|xml)$ - [F,L]
+		RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F,L]
+		RewriteRule ^wp-includes/theme-compat/ - [F,L]
+	RewriteRule (/)?feed(/)?$ - [F,L]
+	RewriteRule (/)?wp-json(/)? - [F,L]
+</IfModule>
+
+
+# Disabe files acssess
+<FilesMatch "wp-config.*\.php|\.htaccess|readme\.html|xmlrpc\.php">
+	Order allow,deny
+	Deny from all
+</FilesMatch>
+
+
+# Prevent authors scan
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{QUERY_STRING} author=\d
+	RewriteRule ^ /? [L,R=301]
+</IfModule>
+
+
+# Redirect HTTP to HTTPS
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{SERVER_PORT} 80 
+	RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+</IfModule>
+
+
+# Redirect www to non-www
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTPS} off
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+	RewriteCond %{HTTPS} on
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+</IfModule>
+
+
+# Redirections
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	# Redirections here...
+</IfModule>
+
+
+# WordPress
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^index\.php$ - [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [L]
+</IfModule>
+
+
+# Files compression
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript image/svg+xml
+</IfModule>
+
+
+# Headers
+<IfModule mod_headers.c>
+	Header unset Pragma
+	Header unset ETag
+	Header unset Link
+	Header unset X-Pingback
+	Header unset Server
+	Header unset X-Powered-By
+
+	Header set Expires 			"max-age=3600, public"
+	Header set Cache-Control 	"max-age=3600, public"
+
+	<FilesMatch ".(css|js)$">
+		Header set Expires 			"max-age=604800, public"
+		Header set Cache-Control 	"max-age=604800, public"
+	</FilesMatch>
+
+	<FilesMatch ".(jpg|jpeg|png|gif|svg|pdf|mp4|doc|docx|xls|xlsx)$">
+		Header set Expires 			"max-age=31536000, public"
+		Header set Cache-Control 	"max-age=31536000, public"
+	</FilesMatch>
+
+	# XSS Protection
+	Header set X-XSS-Protection "1; mode=block"
+
+	# Prevent content type sniffing
+	Header set X-Content-Type-Options nosniff
+
+	# Prevent HTTP access
+	Header set Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+	# Prevent page render into frames
+	Header set X-Frame-Options DENY
+</IfModule>

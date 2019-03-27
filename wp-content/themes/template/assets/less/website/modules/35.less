@@ -1,0 +1,79 @@
+/**
+ * The module styles.
+ */
+
+
+@module-35-block-margin-1 = 15px;
+@module-35-block-margin-2 = 8px;
+
+.module-35 {
+
+	> .container {
+
+		.blocks {
+			margin: -@module-35-block-margin-1;
+
+			.block {
+				width: 100%;
+				margin: @module-35-block-margin-1;
+				padding: 30px;
+				background-color: @blue-light;
+				border: 2px solid darken( @blue-light, 8%);
+				text-align: center;
+
+				.text-1 {
+					.margin-top( 5px; );
+					color: @blue-dark;
+					font-size: 32px;
+
+					@media ( max-width : 1000px ) {
+						font-size: 28px;
+					}
+				}
+
+				.text-2 {
+					.margin-top( 0 );
+					color: @red;
+					font-size: 32px;
+
+					@media ( max-width : 1000px ) {
+						font-size: 28px;
+					}
+				}
+
+				hr {
+					.container( 70px );
+					height: 3px;
+					.margin-top( 20px );
+					background-color: @blue-dark;
+				}
+
+				.text-3 {
+					.margin-top( 25px );
+					color: @blue-dark;
+
+					@media ( max-width : 1000px ) {
+						font-size: 14px;
+					}
+
+					@media ( max-width : 800px ) {
+						font-size: 16px;
+					}
+				}
+
+				@media ( max-width : 1000px ) {
+					margin: @module-35-block-margin-2;
+					padding: 15px;
+				}
+			}
+
+			@media ( max-width : 1000px ) {
+				margin: -@module-35-block-margin-2;
+			}
+
+			@media ( max-width : 800px ) {
+				flex-wrap: wrap;
+			}
+		}
+	}
+}

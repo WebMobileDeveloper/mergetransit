@@ -1,0 +1,73 @@
+/**
+ * The module 1 styles.
+ *
+ * [Last update: 2018-08-20]
+ */
+
+
+.module-1 {
+	text-align: center;
+
+	.container {
+
+		.title {
+			color: @navy;
+			font-size: 60px;
+
+			.module-7 & {
+
+				.module-12 & {
+					font-family: @font-text;
+					color: @white;
+					font-size: 16px;
+					font-weight: 700;
+				}
+			}
+
+			.module-33 & {
+				color: @white;
+				font-size: 90px;
+
+				@media ( max-width : 1000px ) {
+					font-size: 50px;
+				}
+
+				@media ( max-width : 600px ) {
+					font-size: 40px;
+				}
+			}
+
+			.module-3 & {
+				color: @black;
+				font-size: 45px;
+
+				@media ( max-width : 600px ) {
+					font-size: 40px;
+				}
+			}
+
+			@media ( max-width : 1000px ) {
+				font-size: 50px;
+			}
+
+			@media ( max-width : 600px ) {
+				font-size: 40px;
+			}
+		}
+
+		.subtitle {
+			.margin-top( 15px );
+			font-size: @big;
+			font-weight: 700;
+		}
+
+		.description {
+			.margin-top( 15px );
+			font-size: 16px;
+		}
+	}
+
+	.module-12 & {
+		text-align: left;
+	}
+}

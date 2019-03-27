@@ -1,0 +1,68 @@
+;/**
+ * The module 32 styles.
+ *
+ * [Last update: 2018-09-14]
+ */
+
+
+.module-32 {
+	padding-top: 70px;
+
+	> .container {
+		position: relative;
+
+		.post-article {
+		
+			.post-header {
+				.container( @container-tiny );
+				text-align: center;
+			
+				.post-title {
+					color: @blue-dark;
+					font-size: 46px;
+					font-weight: 700;
+
+					@media ( max-width : 1000px ) {
+						font-size: 40px;
+					}
+
+					@media ( max-width : 600px ) {
+						font-size: 34px;
+					}
+				}
+			
+				.post-terms {
+					.margin-top( 20px );
+					justify-content: center;
+
+					.term {
+						margin: 0 20px 0 0;
+						.margin-right();
+						padding: 10px 0;
+						border-top: 2px solid transparent;
+						border-bottom: 2px solid @black;
+						color: @red;
+
+						&.hover {
+							color: @black;
+						}
+					}
+				}
+			}
+			
+			.post-thumbnail {
+				.margin-top( 25px );
+			
+				img {
+					margin: 0px auto;
+				}
+			}
+			
+			.post-content {
+				.container( @container-tiny );
+				.margin-top( 35px );
+				color: @blue-dark;
+			}
+		}
+	}
+}

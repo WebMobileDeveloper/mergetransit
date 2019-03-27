@@ -1,0 +1,2800 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Empty Template 6.0.0\n"
+"POT-Creation-Date: 2019-02-19 11:19+0100\n"
+"PO-Revision-Date: 2019-02-19 11:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/framework/classes/AcfFieldPostType.php:41
+msgctxt "The ACF field type name."
+msgid "Post Type"
+msgstr "Typ wpisu"
+
+#: lib/framework/classes/AcfFieldPostType.php:57
+#: lib/framework/classes/AcfFieldRole.php:57
+#: lib/framework/classes/AcfFieldTaxonomy.php:57
+#: lib/framework/classes/AcfFieldTerm.php:57
+msgctxt "verb"
+msgid "Select"
+msgstr ""
+
+#: lib/framework/classes/AcfFieldPostType.php:214
+#: lib/framework/classes/AcfFieldRole.php:222
+#: lib/framework/classes/AcfFieldTaxonomy.php:214
+#: lib/framework/classes/AcfFieldTerm.php:251
+msgid "Default Value"
+msgstr ""
+
+#: lib/framework/classes/AcfFieldPostType.php:216
+#: lib/framework/classes/AcfFieldRole.php:224
+#: lib/framework/classes/AcfFieldTaxonomy.php:216
+#: lib/framework/classes/AcfFieldTerm.php:253
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: lib/framework/classes/AcfFieldPostType.php:233
+#: lib/framework/classes/AcfFieldRole.php:241
+#: lib/framework/classes/AcfFieldTaxonomy.php:233
+#: lib/framework/classes/AcfFieldTerm.php:270
+msgid "Allow Null?"
+msgstr ""
+
+#: lib/framework/classes/AcfFieldPostType.php:254
+#: lib/framework/classes/AcfFieldRole.php:262
+#: lib/framework/classes/AcfFieldTaxonomy.php:254
+#: lib/framework/classes/AcfFieldTerm.php:291
+msgid "Select multiple values?"
+msgstr ""
+
+#: lib/framework/classes/AcfFieldRole.php:41
+msgctxt "The ACF field type name."
+msgid "Role"
+msgstr "Rola"
+
+#: lib/framework/classes/AcfFieldTaxonomy.php:41
+msgctxt "The ACF field type name."
+msgid "Taxonomy"
+msgstr "Taksonomia"
+
+#: lib/framework/classes/AcfFieldTerm.php:41
+msgctxt "The ACF field type name."
+msgid "Term"
+msgstr "Termin taksonomii"
+
+#: lib/framework/classes/AcfFieldTerm.php:312
+msgid "Taxonomy"
+msgstr ""
+
+#: lib/framework/classes/AcfFieldTerm.php:314
+msgid "Select the taxonomy to be displayed"
+msgstr ""
+
+#: lib/framework/classes/Configuration.php:2468
+msgctxt "Module template taxonomy select meta box default value."
+msgid "None"
+msgstr "Brak"
+
+#: lib/framework/classes/Configuration.php:2608
+msgctxt "Duplicate the post label."
+msgid "Duplicate"
+msgstr "Duplikuj"
+
+#: lib/framework/classes/ConfigurationColumns.php:316
+msgctxt "The ID column title."
+msgid "ID"
+msgstr "ID"
+
+#: lib/framework/classes/ConfigurationColumns.php:334
+msgctxt "The modified date column title."
+msgid "Modified"
+msgstr "Data modyfikacji"
+
+#: lib/framework/classes/ConfigurationColumns.php:344
+msgctxt "The published date column title."
+msgid "Published"
+msgstr "Data publikacji"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:195
+msgctxt "The customize: the multilingualism."
+msgid "The multilingualism"
+msgstr "Wielojęzyczność"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:242
+msgctxt "The customize: the multilingualism."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:262
+msgctxt "The customize: the multilingualism."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:341
+msgctxt "The customize: the general."
+msgid "The general"
+msgstr "Ogólne ustawienia"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:388
+msgctxt "The customize: the general."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:408
+msgctxt "The customize: the general."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:487
+msgctxt "The customize: the media."
+msgid "The media"
+msgstr "Media"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:534
+msgctxt "The customize: the media."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:554
+msgctxt "The customize: the media."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:633
+msgctxt "The customize: the error 404."
+msgid "The error 404"
+msgstr "Błąd 404 (strony nie znaleziono)"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:680
+msgctxt "The customize: the error 404."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:700
+msgctxt "The customize: the error 404."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:779
+msgctxt "The customize: the archive."
+msgid "The archive"
+msgstr "Archiwum"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:826
+msgctxt "The customize: the archive."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:846
+msgctxt "The customize: the archive."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:925
+msgctxt "The customize: the author."
+msgid "The author"
+msgstr "Autor"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:972
+msgctxt "The customize: the author."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:992
+msgctxt "The customize: the author."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1071
+msgctxt "The customize: the search."
+msgid "The search"
+msgstr "Wyszukiwarka"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1118
+msgctxt "The customize: the search."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1138
+msgctxt "The customize: the search."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1217
+msgctxt "The customize: the structured data."
+msgid "The structured data"
+msgstr "Dane uporządkoweane"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1264
+msgctxt "The customize: the structured data."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1284
+msgctxt "The customize: the structured data."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1363
+msgctxt "The customize: the pagination."
+msgid "The pagination"
+msgstr "Paginacja"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1410
+msgctxt "The customize: the pagination."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1430
+msgctxt "The customize: the pagination."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1509
+msgctxt "The customize: the payments."
+msgid "The payments"
+msgstr "Płatności"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1556
+msgctxt "The customize: the payments."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1576
+msgctxt "The customize: the payments."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1655
+msgctxt "The customize: the OnePage."
+msgid "The OnePage"
+msgstr "OnePage"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1702
+msgctxt "The customize: the OnePage."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1722
+msgctxt "The customize: the OnePage."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1801
+msgctxt "The customize: the mailbox."
+msgid "The mailbox"
+msgstr "Skrzynka pocztowa"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1848
+msgctxt "The customize: the mailbox."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1868
+msgctxt "The customize: the mailbox."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1947
+msgctxt "The customize: the shortcodes."
+msgid "The shortcodes"
+msgstr "Minikody"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:1994
+msgctxt "The customize: the shortcodes."
+msgid "The page"
+msgstr "Strona"
+
+#: lib/framework/classes/ConfigurationCustomizer.php:2014
+msgctxt "The customize: the shortcodes."
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: lib/framework/classes/ConfigurationDashboard.php:155
+msgctxt "The helpdesk meta box title."
+msgid "Helpdesk"
+msgstr "Biuro obsługi klienta"
+
+#: lib/framework/classes/ConfigurationMedia.php:421
+msgid "Thumbnail"
+msgstr ""
+
+#: lib/framework/classes/ConfigurationMedia.php:447
+msgid "Featured Image"
+msgstr ""
+
+#: lib/framework/classes/ConfigurationMedia.php:489
+msgid "Full Size"
+msgstr ""
+
+#: lib/framework/classes/ConfigurationUsers.php:87
+msgctxt "The role name."
+msgid "Supervisor"
+msgstr "Programista"
+
+#~ msgctxt "The icon image title in a posts list table."
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgctxt "The helpdesk metabox title."
+#~ msgid "Helpdesk"
+#~ msgstr "Biuro obsługi klienta"
+
+#~ msgctxt "The multilingualism meta box title."
+#~ msgid "Multilingualism"
+#~ msgstr "Wielojęzyczność"
+
+#~ msgctxt "The no translation text for multilingualism select."
+#~ msgid "(no translation)"
+#~ msgstr "(brak tłumaczenia)"
+
+#~ msgctxt "The no posts text for selected language."
+#~ msgid "No posts in language."
+#~ msgstr "Brak wpisów w danym języku."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Icons"
+#~ msgstr "Ikony"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Icon"
+#~ msgstr "Dodaj nową"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Icon"
+#~ msgstr "Dodaj nową ikonę"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Icon"
+#~ msgstr "Edytuj ikonę"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Icon"
+#~ msgstr "Zobacz ikonę"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Icons"
+#~ msgstr "Szukaj ikon"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Icons found"
+#~ msgstr "Nie znaleziono żadnych ikon."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Icons found in Trash"
+#~ msgstr "Nie znaleziono żadnych ikon w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter icons list"
+#~ msgstr "Filtrowanie ikon"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Icons list navigation"
+#~ msgstr "Nawigacja listą ikon"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Icons list"
+#~ msgstr "Lista ikon"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Settings"
+#~ msgstr "Ustawienia"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Setting"
+#~ msgstr "Ustawienie"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Setting"
+#~ msgstr "Dodaj nowe"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Setting"
+#~ msgstr "Dodaj nowe ustawienie"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Setting"
+#~ msgstr "Edytuj ustawienie"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Setting"
+#~ msgstr "Zobacz ustawienie"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Settings"
+#~ msgstr "Szukaj ustawień"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Settings found"
+#~ msgstr "Nie znaleziono żadnych ustawień."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Settings found in Trash"
+#~ msgstr "Nie znaleziono żadnych ustawień w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter settings list"
+#~ msgstr "Filtrowanie ustawień"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Settings list navigation"
+#~ msgstr "Nawigacja listą ustawień"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Settings list"
+#~ msgstr "Lista ustawień"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Forms"
+#~ msgstr "Formularze"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Form"
+#~ msgstr "Formularz"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Form"
+#~ msgstr "Dodaj nowy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Form"
+#~ msgstr "Dodaj nowy formularz"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Form"
+#~ msgstr "Edytuj formularz"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Form"
+#~ msgstr "Zobacz formularz"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Forms"
+#~ msgstr "Szukaj formularzy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Forms found"
+#~ msgstr "Nie znaleziono żadnych formularzy."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Forms found in Trash"
+#~ msgstr "Nie znaleziono żadnych formularzy w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter forms list"
+#~ msgstr "Filtrowanie formularzy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Forms list navigation"
+#~ msgstr "Nawigacja listą formularzy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Forms list"
+#~ msgstr "Lista formularzy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Fields"
+#~ msgstr "Pola"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Field"
+#~ msgstr "Pole formularza"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Field"
+#~ msgstr "Dodaj nowe"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Field"
+#~ msgstr "Dodaj nowe pole"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Field"
+#~ msgstr "Edytuj pole"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Field"
+#~ msgstr "Zobacz pole"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Fields"
+#~ msgstr "Szukaj pól"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Fields found"
+#~ msgstr "Nie znaleziono żadnych pól."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Fields found in Trash"
+#~ msgstr "Nie znaleziono żadnych pól w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter fields list"
+#~ msgstr "Filtrowanie pól"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Fields list navigation"
+#~ msgstr "Nawigacja listą pól"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Fields list"
+#~ msgstr "Lista pól"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Validations"
+#~ msgstr "Walidacje"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Validation"
+#~ msgstr "Walidacja formularza"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Validation"
+#~ msgstr "Dodaj nową"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Validation"
+#~ msgstr "Dodaj nową walidację"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Validation"
+#~ msgstr "Edytuj walidację"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Validation"
+#~ msgstr "Zobacz walidację"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Validations"
+#~ msgstr "Szukaj walidacji"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Validations found"
+#~ msgstr "Nie znaleziono żadnych walidacji."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Validations found in Trash"
+#~ msgstr "Nie znaleziono żadnych walidacji w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter validations list"
+#~ msgstr "Filtrowanie algorytmów walidacji"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Validations list navigation"
+#~ msgstr "Nawigacja listą algorytmów walidacji"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Validations list"
+#~ msgstr "Lista algorytmów walidacji"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Buttons"
+#~ msgstr "Przyciski"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Button"
+#~ msgstr "Przycisk formularza"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Button"
+#~ msgstr "Dodaj nowy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Button"
+#~ msgstr "Dodaj nowy przycisk"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Button"
+#~ msgstr "Edytuj przycisk"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Button"
+#~ msgstr "Zobacz przycisk"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Buttons"
+#~ msgstr "Szukaj przycisków"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Buttons found"
+#~ msgstr "Nie znaleziono żadnych przycisków."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Buttons found in Trash"
+#~ msgstr "Nie znaleziono żadnych przycisków w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter buttons list"
+#~ msgstr "Filtrowanie przycisków"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Buttons list navigation"
+#~ msgstr "Nawigacja listą przycisków"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Buttons list"
+#~ msgstr "Lista przycisków"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "E-mails"
+#~ msgstr "E-maile"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "E-mail"
+#~ msgstr "E-mail formularza"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add E-mail"
+#~ msgstr "Dodaj nowy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New E-mail"
+#~ msgstr "Dodaj nowy e-mail"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit E-mail"
+#~ msgstr "Edytuj e-mail"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View E-mail"
+#~ msgstr "Zobacz e-mail"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search E-mails"
+#~ msgstr "Szukaj e-maili"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No E-mails found"
+#~ msgstr "Nie znaleziono żadnych e-maili."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No E-mails found in Trash"
+#~ msgstr "Nie znaleziono żadnych e-maili w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter e-mails list"
+#~ msgstr "Filtrowanie e-maili"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "E-mails list navigation"
+#~ msgstr "Nawigacja listę e-maili"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "E-mails list"
+#~ msgstr "Lista e-maili"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Modules"
+#~ msgstr "Moduły"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Module"
+#~ msgstr "Moduł"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Module"
+#~ msgstr "Dodaj nowy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Module"
+#~ msgstr "Dodaj nowy moduł"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Module"
+#~ msgstr "Edytuj moduł"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Module"
+#~ msgstr "Zobacz moduł"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Modules"
+#~ msgstr "Szukaj modułów"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Modules found"
+#~ msgstr "Nie znaleziono żadnych modułów."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Modules found in Trash"
+#~ msgstr "Nie znaleziono żadnych modułów w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter modules list"
+#~ msgstr "Filtrowanie modułów"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Modules list navigation"
+#~ msgstr "Nawigacja listą modułów"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Modules list"
+#~ msgstr "Lista modułów"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Post types"
+#~ msgstr "Typy wpisów"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Post type"
+#~ msgstr "Typ wpisu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Post type"
+#~ msgstr "Dodaj nowy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Post type"
+#~ msgstr "Dodaj nowy typ wpisu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Post type"
+#~ msgstr "Edytuj typ wpisu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Post type"
+#~ msgstr "Zobacz typ wpisu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Post types"
+#~ msgstr "Szukaj typów wpisu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Post types found"
+#~ msgstr "Nie znaleziono żadnych typów wpisu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Post types found in Trash"
+#~ msgstr "Nie znaleziono żadnych typów wpisu w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter post types list"
+#~ msgstr "Filtrowanie typów wpisu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Post types list navigation"
+#~ msgstr "Nawigacja listą typów wpisu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Post types list"
+#~ msgstr "Lista typów wpisu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Taxonomies"
+#~ msgstr "Taksonomie"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Taxonomy"
+#~ msgstr "Taksonomia"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Taxonomy"
+#~ msgstr "Dodaj nową"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Taxonomy"
+#~ msgstr "Dodaj nową taksonomię"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Taxonomy"
+#~ msgstr "Edytuj taksonomię"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "View Taxonomy"
+#~ msgstr "Zobacz taksonomię"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Taxonomies"
+#~ msgstr "Szukaj taksonomii"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Taxonomies found"
+#~ msgstr "Nie znaleziono żadnych taksonomii."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Taxonomies found in Trash"
+#~ msgstr "Nie znaleziono żadnych taksonomii w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Filter taxonomies list"
+#~ msgstr "Filtrowanie taksonomii"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Taxonomies list navigation"
+#~ msgstr "Nawigacja listą taksonomii"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Taxonomies list"
+#~ msgstr "Lista taksonomii"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Templates"
+#~ msgstr "Szablony"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Template"
+#~ msgstr "Szablon modułu"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Search Templates"
+#~ msgstr "Szukaj szablonów"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "All Templates"
+#~ msgstr "Wszystkie szablony"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Parent Template"
+#~ msgstr "Szablon nadrzędny"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Parent Template:"
+#~ msgstr "Szablon nadrzędny:"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Edit Template"
+#~ msgstr "Edytuj szablon"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "View Template"
+#~ msgstr "Zobacz szablon"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Update Template"
+#~ msgstr "Aktualizuj szablon"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Add New Template"
+#~ msgstr "Dodaj nowy szablon"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "New Template Name"
+#~ msgstr "Nazwa nowego szablonu"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Separate templates with commas"
+#~ msgstr "Oddziel kolejne szablony przecinkami"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Add or remove templates"
+#~ msgstr "Dodaj lub usuń szablon"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Choose from the most used templates"
+#~ msgstr "Wybierz spośród najpopularniejszych szablonów"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "No templates found"
+#~ msgstr "Nie znaleziono żadnych szablonów."
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Templates list navigation"
+#~ msgstr "Nawigacja listą szablonów"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Templates list"
+#~ msgstr "Lista szablonów"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Most Used"
+#~ msgstr "Najczęściej używane"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "← Back to templates"
+#~ msgstr "← Powrót do szablonów"
+
+#~ msgctxt "The admin panel page post type all-items label."
+#~ msgid "Pages"
+#~ msgstr "Strony"
+
+#~ msgctxt "The customize: the cookies."
+#~ msgid "The cookies"
+#~ msgstr "Ciasteczka"
+
+#~ msgctxt "The customize: the cookies."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the cookies."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The created by metabox title."
+#~ msgid "Helpdesk"
+#~ msgstr "Biuro obsługi klienta"
+
+#~ msgid "OnePage template"
+#~ msgstr "OnePage"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Back to templates"
+#~ msgstr "Powrót do listy szablonów"
+
+#~ msgctxt "The customize: the breadcrumbs."
+#~ msgid "The breadcrumbs"
+#~ msgstr "Okruszki"
+
+#~ msgctxt "The customize: the breadcrumbs."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the breadcrumbs."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the lazy load."
+#~ msgid "The lazy load"
+#~ msgstr "Doczytywanie treści"
+
+#~ msgctxt "The customize: the lazy load."
+#~ msgid "The type"
+#~ msgstr "Typ"
+
+#~ msgctxt "The customize: the lazy load."
+#~ msgid "Automatic"
+#~ msgstr "Automatyczny"
+
+#~ msgctxt "The customize: the lazy load."
+#~ msgid "Manual"
+#~ msgstr "Ręczny"
+
+#~ msgctxt "The customize: the menus."
+#~ msgid "The menus"
+#~ msgstr "Menu nawigacyjne"
+
+#~ msgctxt "The customize: the menus."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the menus."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The admin menu page title."
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgctxt "The admin menu menu title."
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "All Icons"
+#~ msgstr "Wszystkie ikony"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "All Settings"
+#~ msgstr "Wszystkie ustawienia"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "All Forms"
+#~ msgstr "Wszystkie formularze"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "All Modules"
+#~ msgstr "Wszystkie moduły"
+
+#~ msgctxt "The customize: the head."
+#~ msgid "The head"
+#~ msgstr "Nagłówek (head)"
+
+#~ msgctxt "The customize: the head."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the head."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the header."
+#~ msgid "The header"
+#~ msgstr "Nagłówek (header)"
+
+#~ msgctxt "The customize: the header."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the header."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the footer."
+#~ msgid "The footer"
+#~ msgstr "Stopka strony (footer)"
+
+#~ msgctxt "The customize: the footer."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the footer."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the cards."
+#~ msgid "The cards"
+#~ msgstr "Karty"
+
+#~ msgctxt "The customize: the cards."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the cards."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the socials."
+#~ msgid "The socials"
+#~ msgstr "Serwisy społecznościowe"
+
+#~ msgctxt "The customize: the socials."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the socials."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the taxonomy."
+#~ msgid "The taxonomy"
+#~ msgstr "Taksonomia"
+
+#~ msgctxt "The customize: the taxonomy."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the taxonomy."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the singular."
+#~ msgid "The singular"
+#~ msgstr "Typy stron"
+
+#~ msgctxt "The customize: the singular."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the singular."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The admin menu page title."
+#~ msgid "Widgets"
+#~ msgstr "Widgety"
+
+#~ msgctxt "The admin menu menu title."
+#~ msgid "Widgets"
+#~ msgstr "Widgety"
+
+#~ msgctxt "The admin menu page title."
+#~ msgid "Customize"
+#~ msgstr "Wygląd"
+
+#~ msgctxt "The admin menu menu title."
+#~ msgid "Customize"
+#~ msgstr "Wygląd"
+
+#~ msgctxt "The widget area name."
+#~ msgid "The front site sidebar"
+#~ msgstr "Strona główna"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the home page."
+#~ msgstr "Treść wyświetlana na stronie głównej."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The page site sidebar"
+#~ msgstr "Strony statyczne"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the static page."
+#~ msgstr "Treść wyświetlana na stronie statycznej."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The singular site sidebar"
+#~ msgstr "Wszystkie typy stron"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the singular page."
+#~ msgstr "Treść wyświetlana na stronie typu wpisu."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The taxonomy site sidebar"
+#~ msgstr "Taksonomia"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the taxonomy page."
+#~ msgstr "Treść wyświetlana na stronie taxonomii."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The author site sidebar"
+#~ msgstr "Autor"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the author page."
+#~ msgstr "Treść wyświetlana na stronie autora."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The search results site sidebar"
+#~ msgstr "Wyniki wyszukiwania"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the search results page."
+#~ msgstr "Treść wyświetlana na stronie wyników wyszukiwania."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The archive site sidebar"
+#~ msgstr "Archiwa"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the archive page."
+#~ msgstr "Treść wyświetlana na stronie archiwum."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The all site sidebar"
+#~ msgstr "Wszystkie strony"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the all pages."
+#~ msgstr "Treść wyświetlana na wszystkich stronach serwisu."
+
+#~ msgctxt "The widget title."
+#~ msgid "Empty space"
+#~ msgstr "Odstęp"
+
+#~ msgctxt "The widget description."
+#~ msgid "The widget displays an empty space."
+#~ msgstr "Widget wyświetla pustą przestrzeń."
+
+#~ msgctxt "The empty space widget width property label."
+#~ msgid "The width [px]:"
+#~ msgstr "Szerokość [px]:"
+
+#~ msgctxt "The empty space widget height property label."
+#~ msgid "The height [px]:"
+#~ msgstr "Wysokość [px]:"
+
+#~ msgctxt "The widget title."
+#~ msgid "Navigation menu"
+#~ msgstr "Menu nawigacyjne"
+
+#~ msgctxt "The widget description."
+#~ msgid "The widget displays a navigation menu."
+#~ msgstr "Widget wyświetla menu nawigacyjne."
+
+#~ msgctxt "The posts list widget widget-title property label."
+#~ msgid "The widget title:"
+#~ msgstr "Tytuł widgetu:"
+
+#~ msgctxt "The menu widget module id property label."
+#~ msgid "The module:"
+#~ msgstr "Moduł"
+
+#~ msgctxt "The menu widget module id property error notification."
+#~ msgid "No module found."
+#~ msgstr "Brak modułów."
+
+#~ msgctxt "The widget title."
+#~ msgid "Posts list"
+#~ msgstr "Lista wpisów"
+
+#~ msgctxt "The widget description."
+#~ msgid "The widget displays a posts list."
+#~ msgstr "Widget wyświetla listę wpisów."
+
+#~ msgctxt "The posts list widget posts property label."
+#~ msgid "The posts:"
+#~ msgstr "Wpisy:"
+
+#~ msgctxt "The posts list widget posts property error notification."
+#~ msgid "No posts found."
+#~ msgstr "Brak wpisów."
+
+#~ msgctxt "The posts list widget post-types property label."
+#~ msgid "The post types:"
+#~ msgstr "Typy wpisów:"
+
+#~ msgctxt "The posts list widget post-types property error notification."
+#~ msgid "No post types found."
+#~ msgstr "Brak typów wpisów."
+
+#~ msgctxt "The posts list widget terms property label."
+#~ msgid "The terms:"
+#~ msgstr "Kategorie:"
+
+#~ msgctxt "The posts list widget terms property error notification."
+#~ msgid "No terms found."
+#~ msgstr "Brak kategorii."
+
+#~ msgctxt "The posts list widget relation property label."
+#~ msgid "The relation between terms:"
+#~ msgstr "Relacja pomiędzy kategoriami:"
+
+#~ msgctxt "The posts list widget relation property option label."
+#~ msgid "intersection"
+#~ msgstr "iloczyn"
+
+#~ msgctxt "The posts list widget relation property option label."
+#~ msgid "union"
+#~ msgstr "suma"
+
+#~ msgctxt "The posts list widget orderby property label."
+#~ msgid "The posts order by:"
+#~ msgstr "Rodzaj sortowania:"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "none"
+#~ msgstr "domyślnie"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "id"
+#~ msgstr "id"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "author"
+#~ msgstr "autor"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "title"
+#~ msgstr "tytuł"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "name"
+#~ msgstr "nazwa"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "type"
+#~ msgstr "typ"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "date"
+#~ msgstr "data publikacji"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "parent"
+#~ msgstr "rodzic"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "randomly"
+#~ msgstr "losowo"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "comments count"
+#~ msgstr "liczba komentarzy"
+
+#~ msgctxt "The posts list widget orderby property option label."
+#~ msgid "menu order"
+#~ msgstr "kolejność w menu"
+
+#~ msgctxt "The posts list widget order property label."
+#~ msgid "The posts order:"
+#~ msgstr "Kierunek sortowania:"
+
+#~ msgctxt "The posts list widget order property option label."
+#~ msgid "DESC"
+#~ msgstr "malejąco"
+
+#~ msgctxt "The posts list widget order property option label."
+#~ msgid "ASC"
+#~ msgstr "rosnąco"
+
+#~ msgctxt "The posts list widget offset property label."
+#~ msgid "The offset:"
+#~ msgstr "Przesunięcie początkowe:"
+
+#~ msgctxt "The posts list widget limit property label."
+#~ msgid "The limit:"
+#~ msgstr "Ilość:"
+
+#~ msgctxt "The posts list widget thumbnail-size property option label."
+#~ msgid "disabled"
+#~ msgstr "wyłączone"
+
+#~ msgctxt "The posts list widget thumbnail-size property option label."
+#~ msgid "oryginal size"
+#~ msgstr "oryginalny rozmiar"
+
+#~ msgctxt "The posts list widget thumbnail-size property label."
+#~ msgid "The thumbnail size:"
+#~ msgstr "Rozmiar obrazka wyróżniającego:"
+
+#~ msgctxt "The widget title."
+#~ msgid "Terms list"
+#~ msgstr "Lista terminów taksonomii"
+
+#~ msgctxt "The widget description."
+#~ msgid "The widget displays a terms list."
+#~ msgstr "Widget wyświetla listę terminów taksonomii."
+
+#~ msgctxt "The terms list widget widget-title property label."
+#~ msgid "The widget title:"
+#~ msgstr "Tytuł widgetu:"
+
+#~ msgctxt "The terms list widget terms property label."
+#~ msgid "The terms:"
+#~ msgstr "Terminy taksonomii:"
+
+#~ msgctxt "The terms list widget terms property error notification."
+#~ msgid "No terms found."
+#~ msgstr "Brak terminów taksonomii."
+
+#~ msgctxt "The terms list widget taxonomies property label."
+#~ msgid "The taxonomies:"
+#~ msgstr "Taksonomie:"
+
+#~ msgctxt "The terms list widget taxonomies property error notification."
+#~ msgid "No taxonomies found."
+#~ msgstr "Brak taksonomii."
+
+#~ msgctxt "The terms list widget orderby property label."
+#~ msgid "The terms order by:"
+#~ msgstr "Rodzaj sortowania:"
+
+#~ msgctxt "The terms list widget orderby property option label."
+#~ msgid "none"
+#~ msgstr "domyślnie"
+
+#~ msgctxt "The terms list widget orderby property option label."
+#~ msgid "id"
+#~ msgstr "id"
+
+#~ msgctxt "The terms list widget orderby property option label."
+#~ msgid "name"
+#~ msgstr "nazwa"
+
+#~ msgctxt "The terms list widget orderby property option label."
+#~ msgid "slug"
+#~ msgstr "slug"
+
+#~ msgctxt "The terms list widget orderby property option label."
+#~ msgid "group"
+#~ msgstr "grupa"
+
+#~ msgctxt "The terms list widget orderby property option label."
+#~ msgid "description"
+#~ msgstr "opis"
+
+#~ msgctxt "The terms list widget orderby property option label."
+#~ msgid "count"
+#~ msgstr "ilość wpisów"
+
+#~ msgctxt "The terms list widget order property label."
+#~ msgid "The terms order:"
+#~ msgstr "Kierunek sortowania:"
+
+#~ msgctxt "The terms list widget order property option label."
+#~ msgid "DESC"
+#~ msgstr "malejąco"
+
+#~ msgctxt "The terms list widget order property option label."
+#~ msgid "ASC"
+#~ msgstr "rosnąco"
+
+#~ msgctxt "The terms list widget offset property label."
+#~ msgid "The offset:"
+#~ msgstr "Przesunięcie początkowe:"
+
+#~ msgctxt "The terms list widget limit property label."
+#~ msgid "The limit:"
+#~ msgstr "Ilość:"
+
+#~ msgctxt "The terms list widget thumbnail-size property option label."
+#~ msgid "disabled"
+#~ msgstr "wyłączone"
+
+#~ msgctxt "The terms list widget thumbnail-size property option label."
+#~ msgid "post-thumbnail"
+#~ msgstr "domyślny"
+
+#~ msgctxt "The terms list widget thumbnail-size property option label."
+#~ msgid "oryginal size"
+#~ msgstr "oryginalny rozmiar"
+
+#~ msgctxt "The terms list widget thumbnail-size property label."
+#~ msgid "The thumbnail size:"
+#~ msgstr "Rozmiar obrazka wyróżniającego:"
+
+#~ msgid "Form template"
+#~ msgstr "Formularz"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Options"
+#~ msgstr "Opcje"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Option"
+#~ msgstr "Opcja"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Option"
+#~ msgstr "Dodaj nową"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Option"
+#~ msgstr "Dodaj nową opcję"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Option"
+#~ msgstr "Edytuj opcję"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Options"
+#~ msgstr "Szukaj opcji"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Options found"
+#~ msgstr "Nie znaleziono żadnych opcji."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Options found in Trash"
+#~ msgstr "Nie znaleziono żadnych opcji w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "All Options"
+#~ msgstr "Wszystkie opcje"
+
+#~ msgctxt "The widget title."
+#~ msgid "Menu"
+#~ msgstr "Menu nawigacyjne"
+
+#~ msgctxt "The menu widget module id property label."
+#~ msgid "The menu page:"
+#~ msgstr "Strona menu:"
+
+#~ msgctxt "The customize: the forms."
+#~ msgid "The forms"
+#~ msgstr "Formularze"
+
+#~ msgctxt "The customize: the forms."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the forms."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The menu name"
+#~ msgid "Main Menu"
+#~ msgstr "Menu główne"
+
+#~ msgctxt "The menu name"
+#~ msgid "Footer Menu"
+#~ msgstr "Menu w stopce"
+
+#~ msgctxt "The contact image title in a posts list table."
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgctxt "The customize: the collapse shortcode."
+#~ msgid "The collapse shortcode"
+#~ msgstr "Shortcode: collapse"
+
+#~ msgctxt "The customize: the collapse shortcode."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the collapse shortcode."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the quote shortcode."
+#~ msgid "The quote shortcode"
+#~ msgstr "Shortcode: quote"
+
+#~ msgctxt "The customize: the quote shortcode."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the quote shortcode."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the video shortcode."
+#~ msgid "The video shortcode"
+#~ msgstr "Shortcode: video"
+
+#~ msgctxt "The customize: the video shortcode."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the video shortcode."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Contacts"
+#~ msgstr "Form. kontaktowe"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Contact"
+#~ msgstr "Formularz kontaktowy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Contact"
+#~ msgstr "Dodaj nowy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Contact"
+#~ msgstr "Dodaj nowy formularz kontaktowy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Contact"
+#~ msgstr "Edytuj formularz"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Contacts"
+#~ msgstr "Szukaj formularzy"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Contacts found"
+#~ msgstr "Nie znaleziono żadnych formularzy."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Contacts found in Trash"
+#~ msgstr "Nie znaleziono żadnych formularzy w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "All Contacts"
+#~ msgstr "Wszystkie formularze"
+
+#~ msgctxt "The widget area name."
+#~ msgid "The category site sidebar"
+#~ msgstr "Kategoria"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the category page."
+#~ msgstr "Treść wyświetlana na stronie kategorii."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The post site sidebar"
+#~ msgstr "Wpisy"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the post page."
+#~ msgstr "Treść wyświetlana na stronie wpisu."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The tag site sidebar"
+#~ msgstr "Tag"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the tag page."
+#~ msgstr "Treść wyświetlana na stronie tagu."
+
+#~ msgctxt "The customize: the contact form."
+#~ msgid "The contact form"
+#~ msgstr "Formularz kontaktowy"
+
+#~ msgctxt "The customize: the contact form."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the contact form."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the newsletter."
+#~ msgid "The newsletter"
+#~ msgstr "Biuletyn"
+
+#~ msgctxt "The customize: the newsletter."
+#~ msgid "The page"
+#~ msgstr "Strona"
+
+#~ msgctxt "The customize: the newsletter."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Galleries"
+#~ msgstr "Galerie"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Gallery"
+#~ msgstr "Galeria"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add Gallery"
+#~ msgstr "Dodaj nową"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Add New Gallery"
+#~ msgstr "Dodaj nową galerię"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Edit Gallery"
+#~ msgstr "Edytuj galerię"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Search Galleries"
+#~ msgstr "Szukaj galerii"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Galleries found"
+#~ msgstr "Nie znaleziono żadnych galerii."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "No Galleries found in Trash"
+#~ msgstr "Nie znaleziono żadnych galerii w koszu."
+
+#~ msgctxt "Custom post type label."
+#~ msgid "All Galleries"
+#~ msgstr "Wszystkie galerie"
+
+#~ msgctxt "The posts list widget meta-type property option label."
+#~ msgid "author"
+#~ msgstr "autor"
+
+#~ msgctxt "The posts list widget meta-type property option label."
+#~ msgid "date"
+#~ msgstr "data"
+
+#~ msgctxt "The posts list widget title-length property label."
+#~ msgid "The title length:"
+#~ msgstr "Długość tytułu:"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the pages."
+#~ msgstr "Treść wyświetlana na stronach statycznych."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the post pages."
+#~ msgstr "Treść wyświetlana na stronach wpisów."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the singular pages."
+#~ msgstr "Treść wyświetlana na stronach wszystkich typów wpisu."
+
+#~ msgctxt "The widget area name."
+#~ msgid "The single site sidebar"
+#~ msgstr "Wpisy"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar displayed on the single pages."
+#~ msgstr "Treść wyświetlana na stronach wpisów."
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Groups"
+#~ msgstr "Grupy"
+
+#~ msgctxt "Custom taxonomy label."
+#~ msgid "Group"
+#~ msgstr "Grupa"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Newsletters"
+#~ msgstr "Biuletyny"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Newsletter"
+#~ msgstr "Biuletyn"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Subscribers"
+#~ msgstr "Subskrybenci"
+
+#~ msgctxt "Custom post type label."
+#~ msgid "Subscriber"
+#~ msgstr "Subskrybent"
+
+#~ msgctxt "Related posts title."
+#~ msgid "You may also like..."
+#~ msgstr "Zobacz także..."
+
+#~ msgctxt "The customize: the autocomplete."
+#~ msgid "The autocomplete"
+#~ msgstr "Autouzupełnianie formularza"
+
+#~ msgctxt "The customize: the autocomplete."
+#~ msgid "The status"
+#~ msgstr "Status"
+
+#~ msgctxt "The customize: the autocomplete."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "The customize: the autocomplete."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the forms."
+#~ msgid "The status"
+#~ msgstr "Status"
+
+#~ msgctxt "The customize: the forms."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "The customize: the forms."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the lazy load."
+#~ msgid "The status"
+#~ msgstr "Status"
+
+#~ msgctxt "The customize: the lazy load."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "The customize: the lazy load."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the lightbox."
+#~ msgid "The lightbox"
+#~ msgstr "Podgląd zdjęć (lightbox)"
+
+#~ msgctxt "The customize: the lightbox."
+#~ msgid "The status"
+#~ msgstr "Status"
+
+#~ msgctxt "The customize: the lightbox."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "The customize: the lightbox."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "The customize: the notifications."
+#~ msgid "The notifications"
+#~ msgstr "Powiadomienia"
+
+#~ msgctxt "The customize: the notifications."
+#~ msgid "The status"
+#~ msgstr "Status"
+
+#~ msgctxt "The customize: the notifications."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "The customize: the notifications."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Menu name"
+#~ msgid "Main Menu"
+#~ msgstr "Menu główne"
+
+#~ msgctxt "Menu name"
+#~ msgid "Footer Menu"
+#~ msgstr "Menu w stopce"
+
+#~ msgctxt "The widget area name."
+#~ msgid "All site sidebar"
+#~ msgstr "Wszystkie strony"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the home page."
+#~ msgstr "Treść wyświetlana na stronie głównej."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the singular pages."
+#~ msgstr "Treść wyświetlana na wpisach i stronach statycznych."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the pages."
+#~ msgstr "Treść wyświetlana na stronach statycznych."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the single pages."
+#~ msgstr "Treść wyświetlana na stronach wpisu."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the search results page."
+#~ msgstr "Treść wyświetlana na stronie wyników wyszukiwania."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the archive page."
+#~ msgstr ""
+#~ "Treść wyświetlana na stronach archiwów (stronach kategorii, tagów, "
+#~ "autora, itp.)."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the category page."
+#~ msgstr "Treść wyświetlana na stronie kategorii."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the tag page."
+#~ msgstr "Treść wyświetlana na stronie tagu."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the author page."
+#~ msgstr "Treść wyświetlana na stronie autora."
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the taxonomy page."
+#~ msgstr "Treść wyświetlana na stronie taksonomii."
+
+#~ msgctxt "Author page title."
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgctxt "Search page title."
+#~ msgid "Search Results for:"
+#~ msgstr "Wyniki wyszukiwania dla:"
+
+#~ msgctxt "Archive page title."
+#~ msgid "Archives"
+#~ msgstr "Archiwa"
+
+#~ msgctxt "Edit the post link"
+#~ msgid "Edit"
+#~ msgstr "Edytuj"
+
+#~ msgctxt "Edit the term link"
+#~ msgid "Edit"
+#~ msgstr "Edytuj"
+
+#~ msgctxt "No posts in archive."
+#~ msgid "Articles not found."
+#~ msgstr "Nie znaleziono żadnych artykułów."
+
+#~ msgctxt "Cookies notification."
+#~ msgid ""
+#~ "By using this website, you consent to the use of cookies in accordance "
+#~ "with our"
+#~ msgstr "Strona korzysta z plików Cookies w celu realizacji usług, zgodnie z"
+
+#~ msgctxt "Cookie terms link title."
+#~ msgid "Cookies Policy"
+#~ msgstr "Polityka prywatności"
+
+#~ msgctxt "Cookie terms link."
+#~ msgid "Cookies Policy"
+#~ msgstr "Polityką Prywatności"
+
+#~ msgctxt "The previous slide image title."
+#~ msgid "Previous slide"
+#~ msgstr "Poprzedni"
+
+#~ msgctxt "The next slide image title."
+#~ msgid "Next slide"
+#~ msgstr "Następny"
+
+#~ msgctxt "Expand a collapse."
+#~ msgid "Expand"
+#~ msgstr "Pokaż"
+
+#~ msgctxt "Hide a collapse."
+#~ msgid "Hide"
+#~ msgstr "Ukryj"
+
+#~ msgctxt "The Empty space widget label."
+#~ msgid "The empty space height:"
+#~ msgstr "Wysokość odstępu:"
+
+#~ msgctxt "Widget title."
+#~ msgid "Empty space"
+#~ msgstr "Odstęp"
+
+#~ msgctxt "Widget description."
+#~ msgid "The widget displays an empty space block."
+#~ msgstr "Widget generuje odstęp pomiędzy innymi widgetami."
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The widget title:"
+#~ msgstr "Tytuł Widgetu:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The posts types:"
+#~ msgstr "Typy wpisów:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The posts terms:"
+#~ msgstr "Kategorie wpisów (terms):"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The relation between terms:"
+#~ msgstr "Relacja pomiędzy kategoriami:"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "intersection"
+#~ msgstr "iloczyn zbiorów"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "union"
+#~ msgstr "suma zbiorów"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The posts order by:"
+#~ msgstr "Rodzaj sortowania:"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "none"
+#~ msgstr "brak"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "author"
+#~ msgstr "autor"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "title"
+#~ msgstr "tytuł"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "name"
+#~ msgstr "nazwa"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "date"
+#~ msgstr "data publikacji"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "modified"
+#~ msgstr "data ostatniej modyfikacji"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "rand"
+#~ msgstr "losowo"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "comment count"
+#~ msgstr "ilość komentarzy"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The posts order:"
+#~ msgstr "Kolejność sortowania:"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "DESC"
+#~ msgstr "malejąco"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "ASC"
+#~ msgstr "rosnąco"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The posts offset:"
+#~ msgstr "Liczba początkowych wpisów do pominięcia (offset):"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The posts quantity:"
+#~ msgstr "Ilość artykułów:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The post thumbnail:"
+#~ msgstr "Pokaż miniaturę artykułu:"
+
+#~ msgctxt "The Posts list widget radio label."
+#~ msgid "Show"
+#~ msgstr "Pokaż"
+
+#~ msgctxt "The Posts list widget radio label."
+#~ msgid "Hide"
+#~ msgstr "Ukryj"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The post thumbnail size:"
+#~ msgstr "Rozmiar miniatury:"
+
+#~ msgctxt "The Posts list widget option label."
+#~ msgid "post-thumbnail"
+#~ msgstr "miniatura"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The post meta:"
+#~ msgstr "Pokaż dane szczegółowe artykułu:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The post title type:"
+#~ msgstr "Wybierz tytuł artykułu:"
+
+#~ msgctxt "The Posts list widget radio label."
+#~ msgid "Short"
+#~ msgstr "Skrócony"
+
+#~ msgctxt "The Posts list widget radio label."
+#~ msgid "Full"
+#~ msgstr "Pełny"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The post title max length:"
+#~ msgstr "Maksymalna długość tytułu:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The post content:"
+#~ msgstr "Treść artykułu:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The post content type:"
+#~ msgstr "Wybierz treść:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The post content max length:"
+#~ msgstr "Maksymalna długość treści:"
+
+#~ msgctxt "Widget title."
+#~ msgid "Posts list"
+#~ msgstr "Lista artykułów"
+
+#~ msgctxt "Widget description."
+#~ msgid "The widget displays a posts list."
+#~ msgstr "Widget wyświetla sprecyzowaną listę artykułów."
+
+#~ msgctxt "Menu admin link label"
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgctxt "Widgets admin link label"
+#~ msgid "Widgets"
+#~ msgstr "Widgety"
+
+#~ msgctxt "Custom Post Type label"
+#~ msgid "Galleries"
+#~ msgstr "Galerie"
+
+#~ msgctxt "Custom Post Type name"
+#~ msgid "Galleries"
+#~ msgstr "Galerie"
+
+#~ msgctxt "Custom Post Type singular_name"
+#~ msgid "Gallery"
+#~ msgstr "Galeria"
+
+#~ msgctxt "Custom Post Type menu_name"
+#~ msgid "Galleries"
+#~ msgstr "Galerie"
+
+#~ msgctxt "Custom Post Type name_admin_bar"
+#~ msgid "Galleries"
+#~ msgstr "Galerie"
+
+#~ msgctxt "Custom Post Type all_items"
+#~ msgid "Galleries"
+#~ msgstr "Galerie"
+
+#~ msgctxt "Custom Post Type add_new"
+#~ msgid "Add Gallery"
+#~ msgstr "Dodaj galerię"
+
+#~ msgctxt "Custom Post Type add_new_item"
+#~ msgid "Add New Gallery"
+#~ msgstr "Dodaj nową galerię"
+
+#~ msgctxt "Custom Post Type edit_item"
+#~ msgid "Edit Gallery"
+#~ msgstr "Edytuj galerię"
+
+#~ msgctxt "Custom Post Type new_item"
+#~ msgid "New Gallery"
+#~ msgstr "Nowa galeria"
+
+#~ msgctxt "Custom Post Type view_item"
+#~ msgid "View Gallery"
+#~ msgstr "Zobacz galerię"
+
+#~ msgctxt "Custom Post Type search_items"
+#~ msgid "Search Galleries"
+#~ msgstr "Wyszukaj galerię"
+
+#~ msgctxt "Custom Post Type not_found"
+#~ msgid "No Galleries found"
+#~ msgstr "Nie znaleziono galerii"
+
+#~ msgctxt "Custom Post Type not_found_in_trash"
+#~ msgid "No Galleries found in Trash"
+#~ msgstr "Nie znaleziono galerii w koszu"
+
+#~ msgctxt "Custom Post Type parent_item_colon"
+#~ msgid "Parent Gallery:"
+#~ msgstr "Nadrzędna galeria:"
+
+#~ msgctxt "Custom Post Type description"
+#~ msgid "Create Galleries post type."
+#~ msgstr "Stwórz nowy typ wpisu: Galerie"
+
+#~ msgctxt "Custom Post Type label"
+#~ msgid "Newsletters"
+#~ msgstr "Newsletter"
+
+#~ msgctxt "Custom Post Type name"
+#~ msgid "Newsletters"
+#~ msgstr "Newsletter"
+
+#~ msgctxt "Custom Post Type singular_name"
+#~ msgid "Newsletter"
+#~ msgstr "Newsletter"
+
+#~ msgctxt "Custom Post Type menu_name"
+#~ msgid "Newsletters"
+#~ msgstr "Newsletter"
+
+#~ msgctxt "Custom Post Type name_admin_bar"
+#~ msgid "Newsletters"
+#~ msgstr "Newsletter"
+
+#~ msgctxt "Custom Post Type all_items"
+#~ msgid "Newsletters"
+#~ msgstr "Newsletter"
+
+#~ msgctxt "Custom Post Type add_new"
+#~ msgid "Add Newsletter"
+#~ msgstr "Dodaj newsletter"
+
+#~ msgctxt "Custom Post Type add_new_item"
+#~ msgid "Add New Newsletter"
+#~ msgstr "Dodaj nowy newsletter"
+
+#~ msgctxt "Custom Post Type edit_item"
+#~ msgid "Edit Newsletter"
+#~ msgstr "Edytuj newsletter"
+
+#~ msgctxt "Custom Post Type new_item"
+#~ msgid "New Newsletter"
+#~ msgstr "Nowy newsletter"
+
+#~ msgctxt "Custom Post Type view_item"
+#~ msgid "View Newsletter"
+#~ msgstr "Zobacz newsletter"
+
+#~ msgctxt "Custom Post Type search_items"
+#~ msgid "Search Newsletters"
+#~ msgstr "Wyszukaj newsletter"
+
+#~ msgctxt "Custom Post Type not_found"
+#~ msgid "No Newsletters found"
+#~ msgstr "Nie znaleziono newslettera"
+
+#~ msgctxt "Custom Post Type not_found_in_trash"
+#~ msgid "No Newsletters found in Trash"
+#~ msgstr "Nie znaleziono newslettera w koszu"
+
+#~ msgctxt "Custom Post Type parent_item_colon"
+#~ msgid "Parent Newsletter:"
+#~ msgstr "Nadrzędny newsletter:"
+
+#~ msgctxt "Custom Post Type description"
+#~ msgid "Create Newsletters post type."
+#~ msgstr "Stwórz nowy typ wpisu: Newsletter"
+
+#~ msgctxt "Custom Post Type label"
+#~ msgid "Subscribers"
+#~ msgstr "Subskrybenci"
+
+#~ msgctxt "Custom Post Type name"
+#~ msgid "Subscribers"
+#~ msgstr "Subskrybenci"
+
+#~ msgctxt "Custom Post Type singular_name"
+#~ msgid "Subscriber"
+#~ msgstr "Subskrybent"
+
+#~ msgctxt "Custom Post Type menu_name"
+#~ msgid "Subscribers"
+#~ msgstr "Subskrybenci"
+
+#~ msgctxt "Custom Post Type name_admin_bar"
+#~ msgid "Subscribers"
+#~ msgstr "Subskrybenci"
+
+#~ msgctxt "Custom Post Type all_items"
+#~ msgid "Subscribers"
+#~ msgstr "Subskrybenci"
+
+#~ msgctxt "Custom Post Type add_new"
+#~ msgid "Add Subscriber"
+#~ msgstr "Dodaj subskrybenta"
+
+#~ msgctxt "Custom Post Type add_new_item"
+#~ msgid "Add New Subscriber"
+#~ msgstr "Dodaj nowego subskrybenta"
+
+#~ msgctxt "Custom Post Type edit_item"
+#~ msgid "Edit Subscriber"
+#~ msgstr "Edytuj subskrybenta"
+
+#~ msgctxt "Custom Post Type new_item"
+#~ msgid "New Subscriber"
+#~ msgstr "Nowy subskrybent"
+
+#~ msgctxt "Custom Post Type view_item"
+#~ msgid "View Subscriber"
+#~ msgstr "Zobacz subskrybenta"
+
+#~ msgctxt "Custom Post Type search_items"
+#~ msgid "Search Subscribers"
+#~ msgstr "Wyszukaj subskrybenta"
+
+#~ msgctxt "Custom Post Type not_found"
+#~ msgid "No Subscribers found"
+#~ msgstr "Nie znaleziono subskrybenta"
+
+#~ msgctxt "Custom Post Type not_found_in_trash"
+#~ msgid "No Subscribers found in Trash"
+#~ msgstr "Nie znaleziono subskrybenta w koszu"
+
+#~ msgctxt "Custom Post Type parent_item_colon"
+#~ msgid "Parent Subscriber:"
+#~ msgstr "Nadrzędny subskrybent:"
+
+#~ msgctxt "Custom Post Type description"
+#~ msgid "Create Subscribers post type."
+#~ msgstr "Stwórz nowy typ wpisu: Subskrybent"
+
+#~ msgctxt "Custom Post Taxonomy label"
+#~ msgid "Categories"
+#~ msgstr "Kategorie"
+
+#~ msgctxt "Custom Post Taxonomy name"
+#~ msgid "Categories"
+#~ msgstr "Kategorie"
+
+#~ msgctxt "Custom Post Taxonomy singular_name"
+#~ msgid "Category"
+#~ msgstr "Kategoria"
+
+#~ msgctxt "Custom Post Taxonomy menu_name"
+#~ msgid "Categories"
+#~ msgstr "Kategorie"
+
+#~ msgctxt "Custom Post Taxonomy name_admin_bar"
+#~ msgid "Categories"
+#~ msgstr "Kategorie"
+
+#~ msgctxt "Custom Post Taxonomy all_items"
+#~ msgid "Categories"
+#~ msgstr "Kategorie"
+
+#~ msgctxt "Custom Post Taxonomy edit_item"
+#~ msgid "Edit Category"
+#~ msgstr "Edytuj kategorie"
+
+#~ msgctxt "Custom Post Taxonomy view_item"
+#~ msgid "View Category"
+#~ msgstr "Zobacz kategorie"
+
+#~ msgctxt "Custom Post Taxonomy update_item"
+#~ msgid "Update Category"
+#~ msgstr "Aktualizuj kategorie"
+
+#~ msgctxt "Custom Post Taxonomy add_new_item"
+#~ msgid "Add New Category"
+#~ msgstr "Dodaj nową kategorie"
+
+#~ msgctxt "Custom Post Taxonomy new_item_name"
+#~ msgid "New Category Name"
+#~ msgstr "Nazwa nowej kategorii"
+
+#~ msgctxt "Custom Post Taxonomy parent_item"
+#~ msgid "Parent Category"
+#~ msgstr "Nadrzędna kategoria"
+
+#~ msgctxt "Custom Post Taxonomy parent_item_colon"
+#~ msgid "Parent Category:"
+#~ msgstr "Nadrzędna kategoria:"
+
+#~ msgctxt "Custom Post Taxonomy search_items"
+#~ msgid "Search Categories"
+#~ msgstr "Wyszukaj kategorie"
+
+#~ msgctxt "Custom Post Taxonomy popular_items"
+#~ msgid "Popular Categories"
+#~ msgstr "Popularne kategorie"
+
+#~ msgctxt "Custom Post Taxonomy separate_items_with_commas"
+#~ msgid "Separate Categories with commas"
+#~ msgstr "Rozdziel kategorie za pomocą przecinka"
+
+#~ msgctxt "Custom Post Taxonomy add_or_remove_items"
+#~ msgid "Add or remove Categories"
+#~ msgstr "Dodaj lub usuń kategorie"
+
+#~ msgctxt "Custom Post Taxonomy choose_from_most_used"
+#~ msgid "Choose from the most used Categories"
+#~ msgstr "Wybierz z najczęściej używanych kategorii"
+
+#~ msgctxt "Custom Post Taxonomy not_found"
+#~ msgid "No Categories found."
+#~ msgstr "Nie znaleziono kategorii."
+
+#~ msgctxt "Custom Post Taxonomy label"
+#~ msgid "Groups"
+#~ msgstr "Grupy"
+
+#~ msgctxt "Custom Post Taxonomy name"
+#~ msgid "Groups"
+#~ msgstr "Grupy"
+
+#~ msgctxt "Custom Post Taxonomy singular_name"
+#~ msgid "Group"
+#~ msgstr "Grupa"
+
+#~ msgctxt "Custom Post Taxonomy menu_name"
+#~ msgid "Groups"
+#~ msgstr "Grupy"
+
+#~ msgctxt "Custom Post Taxonomy name_admin_bar"
+#~ msgid "Groups"
+#~ msgstr "Grupy"
+
+#~ msgctxt "Custom Post Taxonomy all_items"
+#~ msgid "Groups"
+#~ msgstr "Grupy"
+
+#~ msgctxt "Custom Post Taxonomy edit_item"
+#~ msgid "Edit Group"
+#~ msgstr "Edytuj grupę"
+
+#~ msgctxt "Custom Post Taxonomy view_item"
+#~ msgid "View Group"
+#~ msgstr "Zobacz grupę"
+
+#~ msgctxt "Custom Post Taxonomy update_item"
+#~ msgid "Update Group"
+#~ msgstr "Aktualizuj grupę"
+
+#~ msgctxt "Custom Post Taxonomy add_new_item"
+#~ msgid "Add New Group"
+#~ msgstr "Dodaj nową grupę"
+
+#~ msgctxt "Custom Post Taxonomy new_item_name"
+#~ msgid "New Group Name"
+#~ msgstr "Nowa nazwa grupy"
+
+#~ msgctxt "Custom Post Taxonomy parent_item"
+#~ msgid "Parent Group"
+#~ msgstr "Nadrzędna grupa"
+
+#~ msgctxt "Custom Post Taxonomy parent_item_colon"
+#~ msgid "Parent Group:"
+#~ msgstr "Nadrzędna grupa:"
+
+#~ msgctxt "Custom Post Taxonomy search_items"
+#~ msgid "Search Groups"
+#~ msgstr "Wyszukaj grupę"
+
+#~ msgctxt "Custom Post Taxonomy popular_items"
+#~ msgid "Popular Groups"
+#~ msgstr "Popularne grupy"
+
+#~ msgctxt "Custom Post Taxonomy separate_items_with_commas"
+#~ msgid "Separate Groups with commas"
+#~ msgstr "Rozdziel grupy za pomocą przecinka"
+
+#~ msgctxt "Custom Post Taxonomy add_or_remove_items"
+#~ msgid "Add or remove Groups"
+#~ msgstr "Dodaj lub usuń grupę"
+
+#~ msgctxt "Custom Post Taxonomy choose_from_most_used"
+#~ msgid "Choose from the most used Groups"
+#~ msgstr "Wybierz z najczęściej używanych grup"
+
+#~ msgctxt "Custom Post Taxonomy not_found"
+#~ msgid "No Groups found."
+#~ msgstr "Nie znaleziono grupy."
+
+#~ msgctxt "Customize: 404 page."
+#~ msgid "404 page"
+#~ msgstr "Strony nie znaleziono (błąd 404)"
+
+#~ msgctxt "Customize: 404 page."
+#~ msgid "Select 404 page"
+#~ msgstr "Wybierz stronę"
+
+#~ msgctxt "Customize: 404 page."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Autocomplete."
+#~ msgid "Autocomplete"
+#~ msgstr "Autouzupełnianie formularza"
+
+#~ msgctxt "Customize: Autocomplete."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "Customize: Autocomplete."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Cookies Policy."
+#~ msgid "Cookies Policy"
+#~ msgstr "Polityka prywatności"
+
+#~ msgctxt "Customize: Cookies Policy."
+#~ msgid "Select Cookies Policy page"
+#~ msgstr "Wybierz stronę"
+
+#~ msgctxt "Customize: Cookies Policy."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Footer."
+#~ msgid "Footer"
+#~ msgstr "Stopka strony (footer)"
+
+#~ msgctxt "Customize: Footer."
+#~ msgid "Select Footer page"
+#~ msgstr "Wybierz stronę"
+
+#~ msgctxt "Customize: Footer."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Head."
+#~ msgid "Head"
+#~ msgstr "Nagłówek strony (head)"
+
+#~ msgctxt "Customize: Head."
+#~ msgid "Select Head page"
+#~ msgstr "Wybierz stronę"
+
+#~ msgctxt "Customize: Head."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Header."
+#~ msgid "Header"
+#~ msgstr "Nagłówek strony (header)"
+
+#~ msgctxt "Customize: Header."
+#~ msgid "Select Header page"
+#~ msgstr "Wybierz stronę"
+
+#~ msgctxt "Customize: Header."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Lazy load."
+#~ msgid "Lazy load"
+#~ msgstr "Lazy load - Doczytywanie obrazów"
+
+#~ msgctxt "Customize: Lazy load."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "Customize: Lazy load."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Lightbox."
+#~ msgid "Lightbox"
+#~ msgstr "Lightbox - podgląd zdjęć"
+
+#~ msgctxt "Customize: Lightbox."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "Customize: Lightbox."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Notifications."
+#~ msgid "Notifications"
+#~ msgstr "Komunikaty i powiadomienia"
+
+#~ msgctxt "Customize: Notifications."
+#~ msgid "On"
+#~ msgstr "Włączone"
+
+#~ msgctxt "Customize: Notifications."
+#~ msgid "Off"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: OnePage."
+#~ msgid "OnePage"
+#~ msgstr "OnePage"
+
+#~ msgctxt "Customize: OnePage."
+#~ msgid "Select OnePage page"
+#~ msgstr "Wybierz stronę OnePage"
+
+#~ msgctxt "Customize: OnePage."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Search."
+#~ msgid "Search"
+#~ msgstr "Wyszukiwarka"
+
+#~ msgctxt "Customize: Search."
+#~ msgid "Select Search page"
+#~ msgstr "Wybierz stronę"
+
+#~ msgctxt "Customize: Search."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Singular."
+#~ msgid "Singular"
+#~ msgstr "Strona treści (singular)"
+
+#~ msgctxt "Customize: Singular."
+#~ msgid "Select Singular page"
+#~ msgstr "Wybierz stronę"
+
+#~ msgctxt "Customize: Singular."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Customize: Social media."
+#~ msgid "Social media"
+#~ msgstr "Media społecznościowe"
+
+#~ msgctxt "Customize: social-media."
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgctxt "Customize: social-media."
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgctxt "Customize: social-media."
+#~ msgid "Google+"
+#~ msgstr "Google+"
+
+#~ msgctxt "Customize: social-media."
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgctxt "Customize: social-media."
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgctxt "Customize: social-media."
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgctxt "Customize: social-media."
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgctxt "Label before categories list."
+#~ msgid "Categories:"
+#~ msgstr "Kategorie:"
+
+#~ msgctxt "Label before tags list."
+#~ msgid "Tags:"
+#~ msgstr "Tagi:"
+
+#~ msgctxt "Breadcrumbs home page name."
+#~ msgid "Home"
+#~ msgstr "Strona główna"
+
+#~ msgctxt "Breadcrumbs home page link title"
+#~ msgid "Home page"
+#~ msgstr "Strona główna"
+
+#~ msgctxt "Breadcrumbs publish time link title"
+#~ msgid "Posts publish in"
+#~ msgstr "Opublikowano:"
+
+#~ msgctxt "Breadcrumbs search page label."
+#~ msgid "Search results for:"
+#~ msgstr "Wyniki wyszukiwania dla:"
+
+#~ msgctxt "Breadcrumbs author page label."
+#~ msgid "Articles posted by"
+#~ msgstr "Artykuł opublikowany przez"
+
+#~ msgctxt "Breadcrumbs 404 error page label."
+#~ msgid "Error 404"
+#~ msgstr "Błąd 404 - strona nieodnaleziona"
+
+#~ msgctxt "Breadcrumbs paged page label."
+#~ msgid "page:"
+#~ msgstr "strona:"
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid "Incorrect newsletter template."
+#~ msgstr "Niepoprawny szablon newslettera."
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid ""
+#~ "An error occured while sending the newsletter. The newsletter template is "
+#~ "not found."
+#~ msgstr ""
+#~ "Wystąpił błąd podczas wysyłania newslettera. Szablon newslettera nie "
+#~ "został odnaleziony."
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid ""
+#~ "An error occured while sending the newsletter. The newsletter template is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Wystąpił błąd podczas wysyłania newslettera. Szablon newslettera jest "
+#~ "niepoprawny."
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid "Incorrect newsletter date."
+#~ msgstr "Niepoprawna data newslettera."
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid ""
+#~ "An error occured while sending the newsletter. The newsletter date is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Wystąpił błąd podczas wysyłania newslettera. Data newslettera jest "
+#~ "niepoprawna."
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid "Incorrect newslletter sending."
+#~ msgstr "Błąd wysyłania."
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid ""
+#~ "An error occured while sending the newsletter. The newslletter can not be "
+#~ "send."
+#~ msgstr ""
+#~ "Wystąpił błąd podczas wysyłania newslettera. Newsletter nie mógł zostać "
+#~ "wysłany."
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid "Incorrect subscriber e-mail."
+#~ msgstr "Niepoprawny adres e-mail subskrybenta."
+
+#~ msgctxt "The newsletter submit error."
+#~ msgid ""
+#~ "An error occured while sending the newsletter. The subscriber e-mail "
+#~ "address is invalid."
+#~ msgstr ""
+#~ "Wystąpił błąd podczas wysyłania newslettera. Adres e-mail subskrybenta "
+#~ "jest niepoprawny."
+
+#~ msgctxt "Pagination previous page link title."
+#~ msgid "Go to previous page"
+#~ msgstr "Pokaż poprzednią stronę"
+
+#~ msgctxt "Pagination next page link title."
+#~ msgid "Go to next page"
+#~ msgstr "Pokaż następną stronę"
+
+#~ msgctxt "Pagination page link title."
+#~ msgid "Page"
+#~ msgstr "Strona"
+
+#~ msgctxt "Edit post link (link to administration panel)"
+#~ msgid "Edit"
+#~ msgstr "Edytuj"
+
+#~ msgctxt "Customize: Body."
+#~ msgid "Body"
+#~ msgstr "Treść strony (body)"
+
+#~ msgctxt "Customize: Body."
+#~ msgid "Select Body page"
+#~ msgstr "Wybierz stronę"
+
+#~ msgctxt "Customize: Body."
+#~ msgid "Disable"
+#~ msgstr "Wyłączone"
+
+#~ msgctxt "Pagination previous page link."
+#~ msgid "Previous"
+#~ msgstr "Poprzednia"
+
+#~ msgctxt "Pagination next page link."
+#~ msgid "Next"
+#~ msgstr "Następna"
+
+#~ msgctxt "Search input label"
+#~ msgid "Search for:"
+#~ msgstr "Wyszukaj"
+
+#~ msgctxt "Search input placeholder."
+#~ msgid "Search&hellip;"
+#~ msgstr "Szukaj&hellip;"
+
+#~ msgctxt "Search input title."
+#~ msgid "Search for"
+#~ msgstr "Wyszukaj"
+
+#~ msgctxt "Search submit button."
+#~ msgid "Search"
+#~ msgstr "Szukaj"
+
+#~ msgctxt "Custom Post Type add_new"
+#~ msgid "Add New Gallery"
+#~ msgstr "Dodaj galerię"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The posts categories:"
+#~ msgstr "Artykuły z kategorii:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The posts tags:"
+#~ msgstr "Artykuły oznaczone tagami:"
+
+#~ msgctxt "The Posts list widget label."
+#~ msgid "The relation between tags and categories:"
+#~ msgstr "Relacja pomiędzy tagami, a kategoriami:"
+
+#~ msgctxt "The widget area name."
+#~ msgid "The header sidebar"
+#~ msgstr "Sidebar w nagłówku"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the header section."
+#~ msgstr "Treść wyświetlana w nagłówku strony."
+
+#~ msgctxt "Mobile menu title."
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgctxt "Menu name"
+#~ msgid "Top Menu"
+#~ msgstr "Menu w nagłówku"
+
+#~ msgctxt "Customize: Cookies Policy label."
+#~ msgid "Cookies Policy"
+#~ msgstr "Polityka Prywatności"
+
+#~ msgctxt "Customize: Cookies Policy label."
+#~ msgid "Select Cookies Policy page"
+#~ msgstr "Strona Polityki prywatności"
+
+#~ msgctxt "Expand a collapsible."
+#~ msgid "Expand"
+#~ msgstr "Rozwiń"
+
+#~ msgctxt "Hide a collapsible."
+#~ msgid "Hide"
+#~ msgstr "Schowaj"
+
+#~ msgctxt "The default note shortcode title."
+#~ msgid "Note:"
+#~ msgstr "Notka:"
+
+#~ msgctxt "Pagination page link title."
+#~ msgid "Go to page:"
+#~ msgstr "Przejdź do strony:"
+
+#~ msgctxt "Pagination first page link title."
+#~ msgid "Go to page:"
+#~ msgstr "Przejdź do strony:"
+
+#~ msgctxt "Pagination go to page link title."
+#~ msgid "Go to page:"
+#~ msgstr "Przejdź do strony:"
+
+#~ msgctxt "Pagination last page link title."
+#~ msgid "Go to page:"
+#~ msgstr "Przejdź do strony:"
+
+#~ msgctxt "Breadcrumbs homepage name."
+#~ msgid "Home"
+#~ msgstr "Strona główna"
+
+#~ msgctxt "The widget area name."
+#~ msgid "The search site sidebar"
+#~ msgstr "Wyniki wyszukiwania"
+
+#~ msgctxt "The widget area description."
+#~ msgid "The sidebar loaded on the search page."
+#~ msgstr "Treść wyświetlana na stronie wyszukiwarki."
+
+#~ msgctxt "Widget area (Sidebar) name."
+#~ msgid "All site sidebar"
+#~ msgstr "Wszystkie strony"
+
+#~ msgctxt "Widget area (Sidebar) description."
+#~ msgid "Sidebar displayed on the all pages."
+#~ msgstr "Treść wyświetlana na wszystkich stronach serwisu."
+
+#~ msgctxt "Widget area (Sidebar) name."
+#~ msgid "Header sidebar"
+#~ msgstr "Sidebar w nagłówku"
+
+#~ msgctxt "Widget area (Sidebar) description."
+#~ msgid "Sidebar displayed after header."
+#~ msgstr "Treść wyświetlana pod nagłówkiem."

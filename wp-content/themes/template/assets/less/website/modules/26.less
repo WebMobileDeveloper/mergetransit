@@ -1,0 +1,71 @@
+/**
+ * The module 26 styles.
+ *
+ * [Last update: 2018-09-14]
+ */
+
+
+.module-26 {
+
+	> .container {
+
+		.post-article {
+		
+			.post-header {
+			
+				.post-title {
+					position: relative; //The edit post link absolute position.
+					.margin-top( @distance );
+					font-size: 60px;
+
+					@media ( max-width : 1000px ) {
+						font-size: 50px;
+					}
+
+					@media ( max-width : 600px ) {
+						font-size: 40px;
+					}
+				}
+			}
+			
+			.post-thumbnail {
+				.margin-top( @distance );
+			
+				img {
+				
+				}
+			}
+			
+			.post-content {
+				.margin-top( 30px );
+				padding-left: 100px;
+
+				p {
+					line-height: 1.6;
+				}
+
+				@media ( max-width : 800px ) {
+					padding-left: 70px;
+				}
+
+				@media ( max-width : 600px ) {
+					padding-left: 0;
+				}
+			}
+		}
+	}
+
+	&.has-background {
+		padding: 136px 0 105px;
+		background-size: contain;
+		background-position: left top;
+
+		@media ( max-width : 1200px ) {
+			padding: 80px 0;
+		}
+
+		@media ( max-width : 700px ) {
+			padding: 50px 0;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+/**
+ * The [note] shortcode styles.
+ *
+ * [Last update: 2019-01-14]
+ */
+
+
+[id^="note-"] {
+	.margin-top( @distance*2 );
+	.margin-bottom( @distance*2 );
+
+	.note-header {
+		background-color: @black;
+
+		.note-title {
+			margin: 0; //Prevent the content styles.
+			padding: 5px 10px;
+			color: @white;
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 1.2;
+		}
+	}
+
+	.note-content {
+		padding: 15px 20px;
+		background-color: @silver;
+		border-top: 0;
+	}
+}

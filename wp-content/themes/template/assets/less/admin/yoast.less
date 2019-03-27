@@ -1,0 +1,97 @@
+/**
+ * The Yoast Plugin styles.
+ *
+ * [Last update: 2018-04-10]
+ */
+
+
+//The Yoast general page.
+.wpseo-admin-page {
+	
+	//The sideber.
+	#sidebar-container {
+		display: none;
+	}
+
+	//The configuration wizard.
+	.yoast-container__configuration-wizard {
+		display: none;
+	}
+
+	//The help button.
+	#yoast-help-center-container {
+		display: none;
+	}
+
+	//The premium notification.
+	.yoast_premium_upsell_admin_block {
+		display: none;
+	}
+}
+
+//The WordPress menu.
+#adminmenu {
+
+	//The Yoast menu.
+	#toplevel_page_wpseo_dashboard {
+
+		//The top level menu.
+		.wp-has-submenu {
+
+			//The notifications counter.
+			.update-plugins {
+				display: none;
+			}
+		}
+		
+		//The low level menu.
+		.wp-submenu {
+			
+			//The submenu item.
+			li {
+			
+				//The premium button.
+				&:nth-last-child( 1 ),
+				&:nth-last-child( 2 ) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+//Metabox.
+#wpseo_meta {
+
+	//The help button.
+	#yoast-help-center-container {
+		display: none;
+	}
+
+	//The premium button.
+	.wpseo-metabox-buy-premium {
+		display: none;
+	}
+
+	//The content optimalization section.
+	#wpseo-meta-section-content {
+
+		//The content block.
+		#wpseo_content {
+
+			//The seo title & description section.
+			#wpseosnippet {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	//The socials section.
+	#wpseo-meta-section-social {
+
+		//The premium notification.
+		.yoast-notice-go-premium {
+			display: none;
+		}
+	}
+}

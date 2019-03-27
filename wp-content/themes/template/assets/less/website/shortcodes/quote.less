@@ -1,0 +1,34 @@
+/**
+ * The [quote] shortcode styles.
+ *
+ * [Last update: 2019-01-14]
+ */
+
+
+[id^="quote-"] {
+	display: block;
+	.margin-top( @distance*2 );
+	.margin-bottom( @distance*2 );
+	padding-left: @distance*4;
+
+	.icon {
+		.margin-bottom( @distance );
+	
+		i {
+			.size( 50px );
+		}
+	}
+
+	.quotation {
+
+		p {
+			line-height: 1.5;
+		}
+
+		footer {
+			margin-top: @distance;
+			text-align: right;
+			font-style: italic;
+		}
+	}
+}

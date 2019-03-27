@@ -1,0 +1,27 @@
+/**
+ * The module 25 styles.
+ *
+ * [Last update: 2018-10-02]
+ */
+
+
+.module-25 {
+	position: fixed;
+	top: @header-height;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -80;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+
+	.onepage-post & {
+		position: absolute;
+		top: 0;
+	}
+
+	.onepage-post:first-child & {
+		top: @header-height;
+	}
+}

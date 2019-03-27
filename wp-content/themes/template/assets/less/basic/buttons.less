@@ -1,0 +1,146 @@
+/**
+ * The buttons styles.
+ *
+ * [Last update: 2018-08-23]
+ */
+
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 9999px !important; //Overwrite a normalize.less.
+	transition-duration: 0.3s;
+	transition: width, height 0s;
+	cursor: pointer;
+	text-align: center;
+	line-height: 1;
+	font-weight: 700;
+	
+	> * {
+		margin-right: 10px;
+	
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+	
+	&.hover {
+		text-decoration: none !important;
+	}
+
+	&.tiny {
+		padding: 5px 7px;
+		font-size: 10px;
+	
+		i {
+			.size( 10px );
+		}
+	}
+
+	&.small {
+		padding: 7px 11px;
+		font-size: 12px;
+	
+		i {
+			.size( 12px );
+		}
+	}
+
+	&.medium {
+		padding: 15px 25px;
+		font-size: 16px;
+	
+		i {
+			.size( 16px );
+		}
+	}
+
+	&.large {
+		padding: 16px 30px;
+		font-size: 18px;
+	
+		i {
+			.size( 18px );
+		}
+	}
+
+	&.huge {
+		padding: 20px 35px;
+		font-size: 18px;
+	
+		i {
+			.size( 18px );
+		}
+	}
+
+	&.blue {
+		border-color: @blue;
+		background-color: @blue;
+		color: @white;
+	
+		&.current,
+		&.hover {
+			border-color: @blue;
+			background-color: transparent;
+			color: @blue;
+		}
+		
+		&.stroke {
+			border-color: @blue;
+			background-color: transparent;
+			color: @blue;
+			
+			&.current,
+			&.hover {
+				border-color: @blue;
+				background-color: @blue;
+				color: @white;
+			}
+		}
+	}
+
+	&.white {
+		border-color: @white;
+		background-color: @white;
+		color: @blue;
+	
+		&.current,
+		&.hover {
+			border-color: @blue;
+			background-color: @blue;
+			color: @white;
+		}
+		
+		&.stroke {
+			border-color: @white;
+			background-color: transparent;
+			color: @white;
+			
+			&.current,
+			&.hover {
+				border-color: @blue;
+				background-color: @blue;
+				color: @white;
+			}
+		}
+	}
+
+	&.square {
+		border-radius: 0px !important; //Overwrite a normalize.less.
+	}
+
+	&.radius {
+		border-radius: 9999px !important; //Overwrite a normalize.less.
+	}
+	
+	&.full {
+		width: 100%;
+	}
+	
+	&.disabled {
+		cursor: not-allowed;
+	}
+}

@@ -1,0 +1,34 @@
+/**
+ * The pagination styles.
+ *
+ * [Last update: 2019-02-21]
+ */
+
+
+@pagination-margin = 2px;
+
+.pagination {
+	margin: 75px -@pagination-margin 0;
+
+	.item {
+		margin: @pagination-margin;
+	
+		span,
+		a {
+			display: block;
+			padding: 5px;
+			font-weight: 700;
+		}
+		
+		&.current {
+			color: @red;
+		}
+		
+		a {
+		
+			&.hover {
+				color: @red;
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+/**
+ * The performance styles.
+ *
+ * [Last update: 2019-02-21]
+ */
+
+
+.performance {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	background-color: @black;
+
+	.test {
+		padding: 5px;
+		border-top: 1px dashed @white;
+		color: @white;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 11px;
+
+		.label {
+			width: 150px;
+			font-weight: 700;
+		}
+
+		.value {
+			width: 90px;
+			text-align: right;
+		}
+
+		&:first-child {
+			border-top: 0;
+		}
+	}
+	
+	@media ( max-width : 1200px ) {
+		display: none;
+	}
+}

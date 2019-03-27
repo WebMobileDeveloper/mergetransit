@@ -1,0 +1,186 @@
+/**
+ * The content styles.
+ *
+ * [Last update: 2019-01-04]
+ */
+
+
+.content {
+	overflow: hidden; /* For float elements. */
+
+	> a:not(.btn) {
+		display: inline-block;
+		color: @color-link;
+		font-weight: 700;
+		
+		&.hover {
+			text-decoration: underline;
+
+			img {
+				opacity: .6;
+			}
+		}
+	}
+
+	> p,
+	> ul,
+	> ol,
+	> table {
+		.margin-top( @distance );
+		.margin-bottom( @distance );
+		line-height: 1.7;
+
+		a:not(.btn) {
+			display: inline-block;
+			color: @color-link;
+			font-weight: 700;
+			
+			&.hover {
+				text-decoration: underline;
+
+				img {
+					opacity: .6;
+				}
+			}
+		}
+	}
+
+	> ul,
+	> ol {
+		list-style-position: outside;
+		list-style-type: disc;
+
+		li {
+			margin-left: @normal*1.2;
+		}
+	
+		ol,
+		ul {
+			list-style-position: outside;
+			margin: @distance/3 0 0 0;
+			padding-left: @distance*1.5;
+			line-height: 1.7;
+		}
+
+		ul {
+			list-style-type: circle;
+
+			ul {
+				list-style-type: square;
+
+				ul {
+					list-style-type: disc;
+
+					ul {
+						list-style-type: circle;
+
+						ul {
+							list-style-type: square;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	> ol,
+	> ol ol {
+		list-style-type: decimal;
+	}
+
+	> table {
+		text-align: left; /* The table headers*/
+		margin-left: auto;
+		margin-right: auto;
+		
+		thead {
+			background-color: @color-link;
+			color: @white;
+		}
+		
+		tr {
+
+			th {
+				padding: 5px 30px;
+				border: 1px solid @gray;
+			}
+
+			td {
+				padding: 5px 15px;
+				border: 1px solid @gray;
+			}
+			
+			&:nth-child( even ) {
+				background-color: @silver;
+			}
+		}
+		
+		&.full-width {
+			width: 100%;
+		}
+		
+		&.text-center {
+			text-align: center;
+		}
+	}
+
+	> hr {
+		.margin-top( @distance*2 );
+		background-color: @black;
+	}
+
+	iframe {
+		// width: 100%;
+		border: 0;
+	}
+	
+	.wp-caption {
+		max-width: 100%;
+	
+		.wp-caption-text {
+			margin-top: 7px;
+			font-size: @small;
+			line-height: 1.4;
+		}
+	}
+
+	.alignleft {
+		float: left;
+		max-width: 50%;
+		margin-right: @distance*2;
+		.margin-bottom( @distance*2 );
+
+		@media ( max-width : 800px ) {
+			max-width: 100%;
+			float: none;
+			margin: @distance*2 auto @distance*2;
+		}
+	}
+
+	.alignright {
+		float: right;
+		max-width: 50%;
+		margin-left: @distance*2;
+		.margin-bottom( @distance*2 );
+
+		@media ( max-width : 800px ) {
+			float: none;
+			max-width: 100%;
+			margin: @distance*2 auto @distance*2;
+		}
+	}
+
+	.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		.margin-top( @distance*2 );
+		.margin-bottom( @distance*2 );
+	}
+
+	.alignnone {
+		display: block;
+		.margin-top( @distance*2 );
+		.margin-bottom( @distance/2 );
+	}
+}

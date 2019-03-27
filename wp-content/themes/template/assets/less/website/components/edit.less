@@ -1,0 +1,28 @@
+/**
+ * The edit styles.
+ *
+ * [Last update: 2019-02-21]
+ */
+
+
+.edit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	
+	a {
+		background-color: @white;
+		color: @black !important;
+		
+		i {
+			.size( 14px );
+		}
+		
+		&.hover {
+			text-decoration: none !important;
+			background-color: @black;
+			color: @white !important;
+		}
+	}
+}
