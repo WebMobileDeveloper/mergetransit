@@ -1,5 +1,0 @@
-# Headers
-<IfModule mod_headers.c>
-	Header unset Expires
-	Header unset Cache-Control
-</IfModule>
