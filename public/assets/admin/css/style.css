@@ -1,0 +1,140 @@
+.file_label {
+    padding: 3px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.close_a {
+    padding: 0 0 0 5px;
+    font-size: 14px;
+    color: black;
+}
+
+
+/* dashboard
+ */
+
+section .small-box {
+    margin: 20px 0;
+}
+
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 127px;
+}
+
+.styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 0 3px 0 14px;
+    /* If you add too much padding here, the options won't show in IE */
+    width: 150px;
+}
+
+
+/* -------------------- Rounded Corners */
+
+.rounded {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.green {
+    background-color: white;
+    border: solid 1px #c2c6e6;
+}
+
+.green select {
+    color: #171414;
+}
+
+
+/* yearly chart */
+
+#chartjs-tooltip {
+    width: 550px;
+    padding: 17px;
+    position: absolute;
+    box-shadow: 0px 0px 10px -2px rgba(106, 106, 107, 0.5);
+    border-radius: 15px;
+    padding: 17 px;
+    background: white;
+    text-align: center;
+    font-family: "Poppins";
+    display: none;
+}
+
+#chartjs-tooltip div.span {
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px gainsboro;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: black;
+}
+
+#chartjs-tooltip {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 13px;
+}
+
+#chartjs-tooltip table.tooltip-table tr td {
+    padding: 5px 15px;
+    position: relative;
+}
+
+#chartjs-tooltip table.tooltip-table tr td span.tipColor {
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    position: absolute;
+}
+
+.tooltip-table th {
+    text-align: center;
+    padding: 5px;
+}
+
+
+.add_shipper, .add_consignee{
+    background-color: #00c0ef;
+    border-color: #00acd6;
+    color: white;
+    font-size: 16px;
+}
+.remove_shipper, .remove_consignee,  .remove_amount{
+    float: left;
+    background-color: #ea3730;
+    border-color: #ea3730;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.remove_shipper:hover, .remove_consignee:hover,  .remove_amount:hover{
+    float: left;
+    background-color: #c5302a;
+    border-color: #c5302a;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.add_amount{
+    float: left;
+    background-color: #00c0ef;
+    border-color: #00c0ef;
+    color: white;
+    margin-left: 5px;
+   
+}
+
+.ziperror {
+    color: red
+}

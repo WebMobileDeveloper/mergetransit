@@ -1,0 +1,155 @@
+#contactform input, #contactform textarea{
+    width: 100% !important;
+}
+
+
+section.section1 {
+    padding-top: 21.7rem;
+    padding-bottom: 10rem;
+    margin-top: -100vh;
+    height: 100vh;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+}
+section.section1.report, section.section1.billing {
+    position: absolute;
+    top: 21.7rem;
+    z-index: 9999;
+    margin-top: 0;
+    height: 100vh;
+    padding-top: 0
+
+}
+section.section1.report .container,
+section.section1.billing .container {
+    max-width: 90%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 1px 60px;
+}
+
+.section_area  {
+    margin: auto;
+}
+.section_area h3.title {
+    color: white;
+    margin: 20px 0;
+}
+section.section1.report h3,
+section.section1.billing h3 {
+    padding: 10px 26px;
+    color: #3f3d3d
+}
+
+.section_area form input, .section_area form select {
+    height: 57px !important;
+    font-size: 20px;
+}
+.section_area form .form-tip a {
+    font-size: 20px;
+}
+.section_area form button, .section_area a{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    float: right
+}
+.billing.section1  table a.btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    float: none;
+    margin-top: 0;
+    text-align: center;
+    background: #3aa1e7
+}
+
+
+#sample_2_wrapper .row{
+    margin-right: 0px;
+    margin-left: 0px;
+    display: contents;
+}
+
+/* mobile app page - video section style */
+.embeded_video {
+    margin : 50px auto;
+}
+.dropdown{
+    padding: 0;
+    margin: 0;
+    margin-left: 0px;
+    text-align: left;
+    position: relative;
+    line-height: 18px;
+    float: none;
+}
+
+li{
+    position: relative;
+}
+
+.dropdown-menu .dropdown-to{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dropdown-to:hover {
+    color: rgb(90, 90, 87)
+}
+.dropdown-menu{
+    float: right;
+    position: absolute;
+    height: 135px;
+    background-color: #5bb4f2;
+    width: 180px;
+}
+.googleplaybutton {
+    display:none;
+}
+@media (max-width: 1366px) {
+    .hero.mobileapp {
+        padding-top: 11.5vw;
+    }
+    .hero__wrapper.mobileapp-page {
+        display: none;
+    }
+    .googleplaybutton {
+        display:block;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (max-width: 642px) {
+    .hero.mobileapp {
+        padding-top: 24.5vw;
+    }
+    .hero__wrapper{
+        height: auto;
+        margin-top: 25px;
+    }
+    .hero.mobileapp .button__box .button {
+        width: 100%;
+        margin: 12px;
+    }
+    .embeded_video {
+        margin: 20px auto;
+        width: 100%;
+        position: relative;
+
+    }
+    .embeded_video iframe {
+        width:100% !important;
+        height: 250px !important;
+    }
+
+    .hero .button__box {
+        margin-top: 1rem;
+    }
+    .mobileapp-page .button.button--dark-blue.f--white {
+        display:none;
+    }
+}
+

@@ -1,0 +1,114 @@
+.info-c-full-br,
+.info-c-semi-br {
+    max-width: 80%;
+    position: relative;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: auto;
+    border: 1px solid transparent;
+    width: 50%;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.info-c-full-br .icon-circle-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.info-c-full-br .info-c-full {
+    text-align: center;
+    width: 60%;
+    height: 60%;
+    margin: 20%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.info-c-full {
+    padding: 20px;
+}
+
+.info-c-full-br .icon-circle-list .info-circle-icons {
+    height: 2em;
+    width: 2em;
+    list-style: none;
+    position: absolute;
+    opacity: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-sizing: content-box !important;
+    -webkit-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+.info-circle-icons {
+    cursor: pointer;
+    text-align: center;
+}
+
+.info-c-full-br .icon-circle-list .info-details,
+.info-c-semi-br .icon-circle-list .info-circle-icons span,
+.info-circle-responsive .smile_icon_list_wrap {
+    display: none;
+}
+
+.info-circle-def {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.info-circle-sub-def {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.info-circle-text {
+    text-align: center;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info-c-full .info-c-full-wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.info-circle-def {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.info-circle-sub-def {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.info-c-full-br .info-c-full {
+    text-align: center;
+}
+
+.info-c-full h3 {
+    margin: 0;
+    text-align: center;
+    color: inherit;
+}
+
+.info-c-full h3 {
+    margin: 0;
+    text-align: center;
+    color: inherit;
+}
