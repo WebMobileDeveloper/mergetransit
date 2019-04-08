@@ -1,144 +1,81 @@
-
-@extends("layout.layout")
+@extends("layout.layout") 
 @section("contents")
-        	<!-- HERO -->
-	<section class="hero">
-		<div class="container-fluid">	
-			<div class="row">
-				<div id="hero__wrapper" class="hero__wrapper">
-					<h1 class="f--white">
-						Merge Transit
-						<br>
-						"The Spot Market Agency" ™
-					</h1>
-					<strong class="f--white">
-						PROVIDING CARRIERS RESOURCES FOR THE SPOT MARKET
-					</strong>
-				</div>
-
-				<div id="#phone" class="phone phone--1 phone--2">
-					<img src="{{asset('assets/images/phone.png')}}" alt="phone">
-					<img  class="gif" src="{{asset('assets/images/20180708_001056.gif')}}" alt="">
-				</div>
-				<div class="background"></div>
-				<button class="scroll">
-					<div class="ball">	
-
-					</div>
-					<span>SCROLL DOWN</span>
-				</button>
+<!-- about -->
+<section id="about" class="about">
+	<div class="container home-content">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="big">about</h1>
 			</div>
 		</div>
-	</section>	
-	<!-- /HERO -->
-	
-	<!-- section full -->
-	<section id="section-full-1" class="section-full">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h2 class="big f--blue">
-						Our Vision and Principles
- 						<span class="shadow--vision">
- 							our vision
- 						</span>
-					</h2>
-				</div>
-				<div class="col-md-5">
-					<p>
-						It is our belief that knowledge/data is power and systems and procedures are the foundation for business success. Our vision for our business is to create tools and provide resources that allow smaller companies to function as larger organizations without hurting their bottom-line. Having the proper resources and tools available, a smaller carrier can better predict performance and consistently outperform the market in a directed manner. Whether your goal is to be a single Owner Operator or build a fleet, we want to make sure we help provide specialized tools and resources that help monitor and produce optimized revenue results for your business.
-					</p>
-				</div>
-				<div class="col-md-7">
-					<p>
-						Merge Transit - The Spot Market Agency, is dedicated to The Spot Market Carriers nationwide. We are a company that believes The Spot Market can provide for a long-term business, when procedures and systems are implemented to navigate the market rates to provide consistent results. We also believe that organizational procedures that allow for real-time monitoring of production is essential to the success of a company operating on the highs and lows of The Spot Market. This is why we have developed our business...To help the small individuals, who make up the large majority of trucking companies supplying our country today. Our business focuses on business reporting, file/document management and rate per mile optimization within The Spot Market. The value of a specialized partner is unmatched for what it can do for your business. With our tools and Carrier Agents, we will organize your operation as well as help provide day to day insight into The Spot Market trends as needed.
-					</p>
-				</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="big">
+					Why Merge Transit - The Spot Market Agency?
+				</h2>
+				<p class="show-mobile">
+					Transparency and Skin in The Game. We are investing in technology and data everyday to help improve the small carriers business.
+					We are not another service just doing exactly what the carrier can do for themselves. We have been featured in 2 of
+					the largest Industry News Sites for our superior dedication to service and technology. FreightWaves, covered our developments
+					in our mobile application and TruckersCast product line. OverDrive Online chose Merge Transit as a focus company for
+					their piece on Dispatch Services and their use. They interviewed many of our clients and we received high praise for
+					our ability to help improve a business's efficiency and bottom-line results.
+				</p>
 			</div>
+			<div class="col-md-6">
+				<p class="hide-mobile">
+					Transparency and Skin in The Game. We are investing in technology and data everyday to help improve the small carriers business.
+					We are not another service just doing exactly what the carrier can do for themselves. We have been featured in 2 of
+					the largest Industry News Sites for our superior dedication to service and technology. FreightWaves, covered our developments
+					in our mobile application and TruckersCast product line. OverDrive Online chose Merge Transit as a focus company for
+					their piece on Dispatch Services and their use. They interviewed many of our clients and we received high praise for
+					our ability to help improve a business's efficiency and bottom-line results.
+				</p>
+				<p>
+					If you are searching for help to improve your businesses production, choose an Agency that can provide more than just promises
+					of big rates. Choose an Agency that has proven they invest in tools and development that truly bring value to carriers
+					in the Spot Market, not the ones who just say it to sound bigger than they are. Merge Transit has invested in developing
+					Tech/Resources for all Carriers, as well as invested heavily in data purchasing, to ensure we are the market experts,
+					giving us and our customers a competitive edge, always! No other service such as ours, has made the big investments
+					like SONAR in order to truly deliver what they offer. We are the daily Spot Market experts, for our Carriers!
+				</p>
+				<p>
+					Whether you are looking for help organizing your back-office so you know your business health, or you are looking for consultants
+					to help optimize your results and take the burden of worrying about finding your next load...Use Merge Transit - The
+					Spot Market Agency and SAY NO to DISPATCH SERVICES!
+				</p>
+			</div>
+			<div class="col-md-6 image"></div>
 		</div>
-	</section>
-	<!-- /section full -->
+	</div>
+</section>
+<!-- /about -->
 
-	<!-- principles -->
-	<section class="section-full principles">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h2 class="big f--blue principles">
-						Core Principles
- 						<span>
- 							core principles
- 						</span>
-					</h2>
-				</div>
-				<div class="col-12">
-					<ul class="f--dark-blue">
-						<li>
-							Be The Spot Market Experts For Every Carrier We Serve.
-						</li>
-						<li>
-							Make a Meaningful Impact on Carriers Businesses Through 
-							Organization and Optimization.
-						</li>
-						<li>
-							Understand The Importance of The Individual Carrier Needs and 
-							The Responsibility of Being a Dedicated Carrier Agent.
-						</li>
-						<li>
-							Always Give Honest Feedback and Insight Internally 
-							and Externally
-						</li>
-						<li>
-							Always Be Planning
-						</li>
-					</ul>
-				</div>
+<!-- mobile -->
+<section id="mobile" class="mobile">
+	<div class="container home-content">
+		<div class="row">
+			<div class="col-lg-6 col-md-4 col-sm-12 image hide-mobile"></div>
+			<div class="col-lg-6 col-md-8 col-sm-12 ">
+				<h2 class="big f--white">
+					Merge Transit <br class="hide-mobile">Mobile App
+				</h2>
+				<p class="f--white">
+					A needed resource for all Small Carriers. We offer our mobile app free to all small 1-3 truck carriers, in order to help
+					increase awareness and importance of data management in the Spot Market.
+				</p>
+				<p class="f--white">
+					This is the TMS designed for the smaller operations, the ones who are behind the wheel and not behind a desk. We make it
+					easy to record shipment data and keep track of all paperwork involved along the way, from booking to billing. We also
+					make it extremely easy to keep track of revenue and your cost to operate, by allowing the users to input and store expenses/paperwork
+					direct from the mobile app, as soon as the expense is incurred. This gives our users a real-time look at their averages
+					and totals, allowing them to make the most educated decision on the go, for their business...As the Spot Market is a
+					fast paced environment where you need your numbers at all times!
+				</p>
 			</div>
+			<div class="col-lg-6 col-md-4 col-sm-12 image show-mobile"></div>
 		</div>
-	</section>
-	<!-- /principles -->
-
-	<!-- info -->
-	<section class="info">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<h2 class="big f--blue">
-						Join us
-						<span>
-							Join us
-						</span>
-					</h2>
-					<a href="/contactus" class="f--blue">
-						Join
-					</a>
-				</div>
-			</div>	
-		</div>
-	</section>
-	<!-- / info -->
-	
-		<!-- GET IT FROM  -->
-		<section class="google">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 getin">
-						<h2 class="big f--white">
-								 Download The App Today! 
-                        <!--span class="small">
-                            and make your job easier.
-                        </span -->
-						</h2>
-						<a href="https://play.google.com/store/apps/details?id=com.cleaningapp" class="get">
-							<img src="{{asset('assets/images/en_badge_web_generic.png')}}" alt="">
-						</a>
-						<a href="https://itunes.apple.com/us/app/merge-transit-spot-market-app/id1434054240?mt=8" class="get">
-							<img src="{{asset('assets/images/AppStoreIcon.png')}}" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- /GET IT FROM -->
-		
+	</div>
+</section>
+<!-- /mobile -->
 @endsection

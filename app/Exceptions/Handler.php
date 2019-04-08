@@ -47,7 +47,7 @@ class Handler extends ExceptionHandler
             if(!$exception instanceof NotFoundHttpException
              && !$exception instanceof AuthenticationException
              && !$exception instanceof TokenMismatchException) {
-                Mail::to(env('DEV_EMAIL'))->send(new ExceptionOccured($html));
+                // Mail::to(env('DEV_EMAIL'))->send(new ExceptionOccured($html));
             }
         } catch (Exception $ex) {
             dd($ex);

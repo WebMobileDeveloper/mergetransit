@@ -16,7 +16,7 @@
             </h2>
             <div class="col-md-6">
                 <div class="services__item">
-                    <h3 class="f--blue">
+                    <h3 class="f--black-blue">
                     ORGANIZATION PROGRAM
                     </h3>
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="470.586px" height="470.586px" viewBox="0 0 470.586 470.586" style="enable-background:new 0 0 470.586 470.586;" xml:space="preserve">
@@ -53,7 +53,7 @@
                             Email all shipments docs direct from App.
                         </li>
                     </ul>
-                    <strong class="f--blue">
+                    <strong class="f--black-blue">
                         $99  / MONTH
                     </strong>
                     <div class="btn-box">
@@ -65,7 +65,7 @@
             </div>
             <div class="col-md-6">
                 <div class="services__item">
-                    <h3 class="f--blue">
+                    <h3 class="f--black-blue">
                         OPTIMIZATION PROGRAM
                     </h3>
                     <svg 
@@ -96,7 +96,7 @@
                         </li>
                     </ul>
                     
-                    <strong class="f--blue">
+                    <strong class="f--black-blue">
                         $125  / WEEKLY
                     </strong>
                     <div class="btn-box">
@@ -118,7 +118,7 @@
             <div class="col-xl-12 wrapper ">
                 <!-- organization -->
                 <div class="organization">
-                    <h2 class="f--blue">
+                    <h2 class="f--black-blue">
                         ORGANIZATION PROGRAM
                     </h2>
                     <!-- phone -->
@@ -127,10 +127,10 @@
                     <div class="phone__screen screen--1">
                         <!-- screen 1 -->
                         <div class="phone__screen-b phone__screen--1">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 1
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Acces to 
                                 <br>
                                 agent admin
@@ -141,10 +141,10 @@
                         </div>
                         <!-- screen 2 -->
                         <div class="phone__screen-b phone__screen--2">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 2
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Individual 
                                 <br>
                                 Shipment Reports
@@ -155,10 +155,10 @@
                         </div>
                         <!-- screen 3 -->
                         <div class="phone__screen-b phone__screen--3">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 3
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Pull
                                 <br>
                                 Reports
@@ -169,10 +169,10 @@
                         </div>
                         <!-- screen 4 -->
                         <div class="phone__screen-b phone__screen--4">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 4
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Calendar
                             </h3>
                             <p>
@@ -181,10 +181,10 @@
                         </div>
                         <!-- screen 5 -->
                         <div class="phone__screen-b phone__screen--5">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 5
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 ADD NEW
                                 <br>
                                 DRIVERS
@@ -195,10 +195,10 @@
                         </div>
                         <!-- screen 6 -->
                         <div class="phone__screen-b phone__screen--6">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 6
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Generate Invoices
                             </h3>
                             <p>
@@ -437,7 +437,7 @@
 
                 <!-- organization -->
                 <div class="optymalization">
-                    <h2 class="f--blue">
+                    <h2 class="f--black-blue">
                         OPTIMIZATION PROGRAM
                     </h2>
                     <!-- phone -->
@@ -446,10 +446,10 @@
                     <div class="phone__screen screen--1">
                         <!-- screen 1 -->
                         <div class="phone__screen-b phone__screen--1">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 1
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 All Organization
                                 <br>
                                 Program Services+
@@ -460,10 +460,10 @@
                         </div>
                         <!-- screen 2 -->
                         <div class="phone__screen-b phone__screen--2">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 2
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Dedicated 
                                 <br>
                                 Carrier Agent 
@@ -474,10 +474,10 @@
                         </div>
                         <!-- screen 3 -->
                         <div class="phone__screen-b phone__screen--3">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 3
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Facilitate 
                                 <br>
                                 all paperwork
@@ -488,10 +488,10 @@
                         </div>
                         <!-- screen 4 -->
                         <div class="phone__screen-b phone__screen--4">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 4
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Provide Route Planning 
                                 and Book Loads
                             </h3>
@@ -501,10 +501,10 @@
                         </div>
                         <!-- screen 5 -->
                         <div class="phone__screen-b phone__screen--5">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 5
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 Take Care of Communication With Brokers
                             </h3>
                             <p>
@@ -513,10 +513,10 @@
                         </div>
                         <!-- screen 6 -->
                         <div class="phone__screen-b phone__screen--6">
-                            <span class="number f--blue">
+                            <span class="number f--black-blue">
                                 6
                             </span>
-                            <h3 class="f--blue">
+                            <h3 class="f--black-blue">
                                 OPTIMIZE RATE PERFORMANCE
                             </h3>
                             <p>
@@ -779,10 +779,10 @@
                         </span -->
                     </h2>
                     <a href="https://play.google.com/store/apps/details?id=com.cleaningapp" class="get">
-                        <img src="{{asset('assets/images/en_badge_web_generic.png')}}" alt="">
+                        <img src="{{asset('assets/images/icon-google-black.png')}}" alt="">
                     </a>
                     <a href="https://itunes.apple.com/us/app/merge-transit-spot-market-app/id1434054240?mt=8" class="get">
-                        <img src="{{asset('assets/images/AppStoreIcon.png')}}" alt="">
+                        <img src="{{asset('assets/images/icon-appstore-black.png')}}" alt="">
                     </a>
                 </div>
             </div>

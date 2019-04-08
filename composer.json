@@ -7,11 +7,12 @@
     "require": {
         "php": ">=5.6.4",
         "barryvdh/laravel-dompdf": "^0.8.2",
+        "laravel/cashier": "7.2.2",
         "laravel/framework": "5.4.*",
         "laravel/passport": "4.0",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "5.4",
-        "stripe/stripe-php": "^6.24"
+        "stripe/stripe-php": "5.9.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

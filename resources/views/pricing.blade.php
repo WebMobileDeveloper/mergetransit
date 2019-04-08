@@ -1,121 +1,61 @@
-
-
-@extends("layout.layout")
+@extends("layout.layout") 
 @section("contents")
-        <section class="page-header page-header-xlg parallax parallax-3" style="background-image:url('assets/images/services-1.png')">
-            <div class="overlay dark-1">
-                <!-- dark overlay [1 to 9 opacity] -->
+<!-- about -->
+<section id="pricing" class="pricing">
+    <div class="container home-content">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="big">pricing</h1>
+                <p>
+                    We have 3 tiers for carriers looking to organize and optimize their business. All have no contracts or minimum length of
+                    service time frames. We work for you day to day to ensure it is our service that maintains your business
+                    and not a contract.
+                </p>
             </div>
-
-            <div class="container">
-
-                <h1>PRICING</h1>
-
-                <!-- breadcrumbs -->
-                <ol class="breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">PRICING</a></li>
-
-                </ol>
-                <!-- /breadcrumbs -->
-
-            </div>
-        </section>
-        <!-- /PAGE HEADER -->
-        <section class="">
-            <div class="container">
-
-
-
-                <div class="row">
-
-                    <div class="col-md-6 margin-bottom-40">
-                        <header class="margin-bottom-20 ">
-                            <h2><span>OUR PRICING</span></h2>
-                            <div class="">
-                                <img class="" src="assets/images/Separator-old.png" alt="" />
-                            </div>
-                        </header>
-
-                        <div class="wpb_wrapper" id="ct_r1dvw53swu6wbag2kytv">
-
-                            <ul>
-                                <li>We book all your loads with your approval and handle all paperwork for billing and setups, etc!</li>
-                                <li>We bill weekly and you can pay by Credit Card, Debit Card or Bank Transfer</li>
-                                <li>You are not locked into using our services and can discontinue at any time</li>
-                                <li>All loads booked are booked under your MC# and billing is handled by your company, so all payments from loads you haul, go directly to your company and are not processed by Merge Transit.</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="assets/images/1-1.jpg" alt="support" />
-                    </div>
-
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-box">
+                    <h3 class="f--black-blue">Full Mobile/Web TMS</h3>
+                    <h3 class="f--red">free</h3>
+                    <hr/>
+                    <p>Spot Market TMS and Mobile App.</p>
+                    <p>No charge for 1-3 trucks to use the Web Portal and Mobile App system for all business needs.</p>
+                    <p>Input your orders online and manage the rest from Mobile App.</p>
+                    <p>TruckersCast not included.</p>
                 </div>
-
             </div>
-        </section>
-
-
-        <section class="client">
-            <div class="mergeclient">
-                <div class="container ">
-                    <div class="row  margin-top-30 margin-bottom-40">
-
-                        <div class="col-md-4">
-                            <div class="">
-                                <div class="margin-top-30 margin-bottom-20">
-                                    <img class="img-responsive" src="assets/images/Shaking-Hands.jpg" alt="" />
-                                </div>
-
-                                <a class="box-icon-title text-center" href="#">
-                                    <h2><span> SERVICE</span></h2>
-                                    <h5>ON-DEMAND DISPATCH</h5>
-                                    <h5>DEDICATED DISPATCH SERVICE</h5>
-                                </a>
-
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="">
-                                <div class="margin-top-30 margin-bottom-20">
-                                    <img class="img-responsive" src="assets/images/Depositphotos_26159417_original.jpg" alt="" />
-                                </div>
-
-                                <a class="box-icon-title text-center" href="#">
-                                    <h2><span> PRICING</span></h2>
-                                    <h5>$30 LOADS UNDER $1,000</h5>
-                                    <h5>$50 FOR LOADS OVER $1,000</h5>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="">
-                                <div class="margin-top-30 margin-bottom-20">
-                                    <img class="img-responsive" src="assets/images/2-1.jpg" alt="" />
-                                </div>
-
-                                <a class="box-icon-title text-center" href="#">
-                                    <h2><span> DISPATCHER</span></h2>
-                                    <h5>YOUR OWN PERSONAL ASSISTANT PROVIDES CUSTOM WEEKLY REPORTING HANDLES ALL SETUP PAPERWORK AND CALLS</h5>
-                                </a>
-
-                            </div>
-                        </div>
-
-                    </div>
+            <div class="col-lg-4  col-md-6">
+                <div class="pricing-box">
+                    <h3 class="f--black-blue">Organization Service</h3>
+                    <h3 class="f--red">$99 per month</h3>
+                    <hr/>
+                    <p>Use of Mobile App and TruckersCast</p>
+                    <p>We do all data entry into the system for your business,</p>
+                    <p>
+                        Email Rate Cons to Merge and We Handle All Data Transfer Into Mobile App and Will Do Any Paperwork You Require While You
+                        Are on The Road.
+                    </p>
                 </div>
-
             </div>
-        </section>
-        <!-- / -->
-
-        <!-- /3 Cols -->
-
+            <div class="col-lg-4 col-md-6 offset-md-3">
+                <div class="pricing-box">
+                    <h3 class="f--black-blue">Optimization Program</h3>
+                    <h3 class="f--red">$125 per week</h3>
+                    <hr/>
+                    <p>Full-Service dispatching program.</p>
+                    <p>All Features Of App and Organization Program</p>
+                    <p>Assigned Dedicated Carrier Agent,</p>
+                    <p>Daily Consultations of Market Data Paperwork</p>
+                    <p>Routing and RPM Optimization</p>
+                    <p>Your personal dispatcher for scheduling, negotiations, issue resolutions, and much more…</p>
+                    <p>Weekly, Monthly and Annual Business Reporting and Strategy Meetings in Order to Make Sure We Meet YOUR
+                        goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /about -->
 @endsection

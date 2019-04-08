@@ -6,10 +6,10 @@
 		<div class="container-fluid">	
 				<div class="googleplaybutton" >
 						<a  href="https://play.google.com/store/apps/details?id=com.cleaningapp" class="get">
-							<img src="{{asset('assets/images/en_badge_web_generic.png')}}" alt="">
+							<img src="{{asset('assets/images/icon-google-black.png')}}" alt="">
 						</a>
 						<a href="https://itunes.apple.com/us/app/merge-transit-spot-market-app/id1434054240?mt=8" class="get">
-							<img src="{{asset('assets/images/AppStoreIcon.png')}}" alt="">
+							<img src="{{asset('assets/images/icon-appstore-black.png')}}" alt="">
 						</a>
 				</div>
 			<div class="row">
@@ -32,10 +32,10 @@
 							Optimization
 						</a>
 						<a  href="https://play.google.com/store/apps/details?id=com.cleaningapp" class="get">
-							<img src="{{asset('assets/images/en_badge_web_generic.png')}}" alt="">
+							<img src="{{asset('assets/images/icon-google-black.png')}}" alt="">
 						</a>
 						<a href="https://itunes.apple.com/us/app/merge-transit-spot-market-app/id1434054240?mt=8" class="get">
-							<img src="{{asset('assets/images/AppStoreIcon.png')}}" alt="">
+							<img src="{{asset('assets/images/icon-appstore-black.png')}}" alt="">
 						</a>
 					</div>
 					
@@ -64,13 +64,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="big f--blue">
+					<h2 class="big f--black-blue">
 						Join us
 						<span>
 							Join us
 						</span>
 					</h2>
-					<a href="/contactus" class="f--blue">
+					<a href="/contactus" class="f--black-blue">
 						Join
 					</a>
 				</div>
@@ -91,10 +91,10 @@
                         </span -->
 						</h2>
 						<a href="https://play.google.com/store/apps/details?id=com.cleaningapp" class="get">
-							<img src="{{asset('assets/images/en_badge_web_generic.png')}}" alt="">
+							<img src="{{asset('assets/images/icon-google-black.png')}}" alt="">
 						</a>
 						<a href="https://itunes.apple.com/us/app/merge-transit-spot-market-app/id1434054240?mt=8" class="get">
-							<img src="{{asset('assets/images/AppStoreIcon.png')}}" alt="">
+							<img src="{{asset('assets/images/icon-appstore-black.png')}}" alt="">
 						</a>
 					</div>
 				</div>

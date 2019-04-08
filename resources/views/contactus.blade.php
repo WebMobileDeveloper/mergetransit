@@ -1,165 +1,124 @@
-@extends("layout.layout")
+@extends("layout.layout") 
 @section("contents")
-
-     <!-- HERO -->
-	<section class="hero">
-		<div class="container-fluid">	
-			<div class="row">
-				<div class="background"></div>
+<!-- CONTACT -->
+<section class="contact">
+	<div class="container  home-content">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="big">GET IN TOUCH</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
 			</div>
 		</div>
-	</section>	
-	<!-- /HERO -->
-
-	<!-- CONTACT -->
-	<section class="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h2 class="big f--white">
-						Contact
-					</h2>
+		<div class="row contact__wrapper">
+			<div class="col-md-8 col-sm-6">
+				@if($status = Session::get("status"))
+				<div class="alert alert-success form-group">
+					<span class="help-block">{{$status}}</span>
 				</div>
-				<div class="col-12 contact__wrapper">
-					<div class="col-6 box box--light-blue">
-						<p>
-							<i class="fas fa-map-marker-alt"></i>
-							<span>
-								Merge Transit LLC
+				<br>
+				<!-- end if -->
+				@endif
+				<form id="contactform" action="{{url('/mailsend')}}" method="post">
+					{{ csrf_field() }}
+					<div class="row">
+						<div class="col-md-6 {{ $errors->has('message') ? ' has-error' : '' }}">
+							<input type="text" name="name" value="{{ old('name') }}" placeholder="Name">
+							<!-- if -->
+							@if ($errors->has('name'))
+							<span class="help-block">{{ $errors->first('name') }}</span>
+							<!-- end if -->
+							@endif
+						</div>
+						<div class="col-md-6 {{ $errors->has('message') ? ' has-error' : '' }}">
+							<input type="text" name="company" value="{{ old('company') }}" placeholder="Company">
+							<!-- if -->
+							@if ($errors->has('company'))
+							<span class="help-block">{{ $errors->first('company') }}</span>
+							<!-- end if -->
+							@endif
+						</div>
+						<div class="col-md-6 {{ $errors->has('message') ? ' has-error' : '' }}">
+							<input type="phone" name="phone" value="{{ old('phone') }}" placeholder="Phone">
+							<!-- if -->
+							@if ($errors->has('phone'))
+							<span class="help-block">{{ $errors->first('phone') }}</span>
+							<!-- end if -->
+							@endif
+						</div>
+						<div class="col-md-6 {{ $errors->has('message') ? ' has-error' : '' }}">
+							<input type="email" name="email" value="{{ old('email') }}" placeholder="Email">
+							<!-- if -->
+							@if ($errors->has('email'))
+							<span class="help-block">{{ $errors->first('email') }}</span>
+							<!-- end if -->
+							@endif
+						</div>
+						<div class="col-md-12 {{ $errors->has('message') ? ' has-error' : '' }}">
+							<textarea name="message" placeholder="Message" rows="8" value="{{ old('message') }}"></textarea>
+							<!-- if -->
+							@if ($errors->has('message'))
+							<span class="help-block">{{ $errors->first('message') }}</span>
+							<!-- end if -->
+							@endif
+						</div>
+						<div class="col-lg-6 col-md-12 right">
+							<button class="button send button--dark-blue  mr-3">&emsp;Send&emsp;</button>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="g-recaptcha" data-sitekey="{{ env('CAPTCHA_SITE_KEY') }}"></div>
+							@if ($errors->has('g-recaptcha-response'))
+							<span class="invalid-feedback" style="display: block;">{{ $errors->first('g-recaptcha-response') }}</span>
+							<!-- end if -->
+							@endif
+							<span class="invalid-feedback" style="display: none;">
+								Complete the reCAPTCHA to submit the form
 							</span>
-						</p>
-						<p>
-							<i class="fas fa-phone"></i>
-							<a href='phone:8662728001'>
-								(866) 272-8001
-							</a>
-						</p>
-						<p>
-							<i class="fas fa-envelope"></i>
-							<a href="mailto:info@MergeTransit.com">
-								info@MergeTransit.com
-							</a>
-						</p>
-						<p>
-							<i class="fab fa-facebook-f"></i>
-							<a href="https://www.facebook.com/MergeTransit/">
-								facebook
-							</a>
-						</p>
+						</div>
 					</div>
-					<div class="col-6 box box--form">
-                        @if($status = Session::get("status"))
-                            <div class="alert alert-success form-group">
-                                <span class="help-block">
-                                    <strong>{{$status}}</strong>
-                                </span>
-                            </div><br>
-                        @endif
-						<form id="contactform" action="{{url('/mailsend')}}" method="post">
-							{{ csrf_field() }}
-                            <div class="row col-md-12">
-                                <p class="{{ $errors->has('name') ? ' has-error' : '' }} col-md-6"><span>
-                                    <input type="text" name="name" value="{{ old('name') }}" placeholder="Name">
-                                    @if ($errors->has('name'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('name') }}</strong>
-                                        </span>
-                                    @endif
-                                </span></p>
-                                
-                                <p class="{{ $errors->has('company') ? ' has-error' : '' }} col-md-6"><span>
-                                    <input type="text" name="company" value="{{ old('company') }}" placeholder="Company">
-                                    @if ($errors->has('company'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('company') }}</strong>
-                                        </span>
-                                    @endif
-                                </span></p>
-                            </div>
-                            <div class="row col-md-12">
-                                <p class="{{ $errors->has('phone') ? ' has-error' : '' }} col-md-6"><span>
-                                    <input type="phone" name="phone" value="{{ old('phone') }}" placeholder="Phone">
-                                    @if ($errors->has('phone'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('phone') }}</strong>
-                                        </span>
-                                    @endif
-                                </span></p>
-
-                                <p class="{{ $errors->has('email') ? ' has-error' : '' }} col-md-6"><span>
-                                    <input type="email" name="email" value="{{ old('email') }}" placeholder="Email">
-                                    @if ($errors->has('email'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('email') }}</strong>
-                                        </span>
-                                    @endif
-                                </span></p>
-                            </div>
-                            <div class="row col-md-12">
-                                <p class="{{ $errors->has('message') ? ' has-error' : '' }} col-md-12"><span>
-                                    <textarea name="message" placeholder="Message" rows="8" value="{{ old('message') }}"></textarea>
-                                    @if ($errors->has('message'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('message') }}</strong>
-                                        </span>
-                                    @endif
-                                </span></p>
-							</div>
-							
-							<div class="row col-md-12">
-								<div class="col-md-12">
-									<div class="g-recaptcha" data-sitekey="{{ env('CAPTCHA_SITE_KEY') }}"></div>
-									@if ($errors->has('g-recaptcha-response'))
-										<span class="invalid-feedback" style="display: block;">
-											<strong>{{ $errors->first('g-recaptcha-response') }}</strong>
-										</span>
-									@endif
-									<span class="invalid-feedback" style="display: none;">
-										<strong>Complete the reCAPTCHA to submit the form</strong>
-									</span>
-								</div>
-							</div>
-
-							<div class="row col-md-12 btn-box">
-								<button class="button button--dark-blue send">Send</button>
-							</div>
-						</form>
-					</div>
+				</form>
+			</div>
+			<div class="col-md-4 col-sm-6 center contact-info">
+				<div class="left pl-3">
+					<img src="{{asset('assets/images/logo-colored.png')}}" alt="Marge Transit">
+					<p>
+						<i class="fas fa-map-marker-alt"></i>
+						<span>Merge Transit LLC</span>
+					</p>
+					<p>
+						<i class="fas fa-phone"></i>
+						<a href='phone:8662728001'>(866) 272-8001</a>
+					</p>
+					<p>
+						<i class="fas fa-envelope"></i>
+						<a href="mailto:info@MergeTransit.com">info@MergeTransit.com</a>
+					</p>
+					<p>
+						<i class="fab fa-facebook-f"></i>
+						<a href="https://www.facebook.com/MergeTransit/">facebook</a>
+					</p>
 				</div>
+
 			</div>
 		</div>
-	</section>
-	<!--/CONTACT -->
-	
-		<!-- GET IT FROM  -->
-		<section class="google">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 getin">
-						<h2 class="big f--white">
-								Get app from Google Play & APP Store 
-							<span class="small">
-								and make your job easier.
-							</span>
-						</h2>
-						<a href="https://play.google.com/store/apps/details?id=com.cleaningapp" class="get">
-							<img src="{{asset('assets/images/en_badge_web_generic.png')}}" alt="">
-						</a>
-						<a href="https://itunes.apple.com/us/app/merge-transit-spot-market-app/id1434054240?mt=8" class="get">
-							<img src="{{asset('assets/images/AppStoreIcon.png')}}" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- /GET IT FROM -->
-       
-
+	</div>
+</section>
+<!--/CONTACT -->
 @endsection
+
+
+
+
+
+
+<!--javascript -->
 @push('javascript')
 
 <script>
-		$("#contactform .send").on('click', function(e){
+	$(document).ready(function(){
+	$("#contactform .send").on('click', function(e){
 			$(".invalid-feedback").hide()
 			e.preventDefault();
 		
@@ -171,5 +130,8 @@
 				$("#contactform").submit()
 			}
 		})
-		</script>
+	})
+
+</script>
+
 @endpush

@@ -12,7 +12,13 @@
 */
 
 Auth::routes();
+
+//  FRONT END ROUTES
 Route::get('/', 'HomeController@index');
+Route::get ('/blog','BlogController@index');
+Route::get ('/blog/detail/{id}','BlogController@detail');
+
+// 
 Route::get("/logout", "Auth\LoginController@logout");
 
 

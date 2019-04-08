@@ -1,7 +1,7 @@
-#contactform input, #contactform textarea{
+#contactform input,
+#contactform textarea {
     width: 100% !important;
 }
-
 
 section.section1 {
     padding-top: 21.7rem;
@@ -13,50 +13,59 @@ section.section1 {
     -webkit-transform: scale(.8);
     transform: scale(.8);
 }
-section.section1.report, section.section1.billing {
+
+section.section1.report,
+section.section1.billing {
     position: absolute;
     top: 21.7rem;
     z-index: 9999;
     margin-top: 0;
     height: 100vh;
     padding-top: 0
-
 }
+
 section.section1.report .container,
 section.section1.billing .container {
     max-width: 90%;
     background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 1px 60px;
 }
 
-.section_area  {
+.section_area {
     margin: auto;
 }
+
 .section_area h3.title {
     color: white;
     margin: 20px 0;
 }
+
 section.section1.report h3,
 section.section1.billing h3 {
     padding: 10px 26px;
     color: #3f3d3d
 }
 
-.section_area form input, .section_area form select {
+.section_area form input,
+.section_area form select {
     height: 57px !important;
     font-size: 20px;
 }
+
 .section_area form .form-tip a {
     font-size: 20px;
 }
-.section_area form button, .section_area a{
+
+.section_area form button,
+.section_area a {
     font-size: 20px;
     padding: 10px 40px;
     margin-top: 15px;
     float: right
 }
-.billing.section1  table a.btn {
+
+.billing.section1 table a.btn {
     font-size: 18px;
     padding: 10px 20px;
     color: #fff;
@@ -66,18 +75,20 @@ section.section1.billing h3 {
     background: #3aa1e7
 }
 
-
-#sample_2_wrapper .row{
+#sample_2_wrapper .row {
     margin-right: 0px;
     margin-left: 0px;
     display: contents;
 }
 
+
 /* mobile app page - video section style */
+
 .embeded_video {
-    margin : 50px auto;
+    margin: 50px auto;
 }
-.dropdown{
+
+.dropdown {
     padding: 0;
     margin: 0;
     margin-left: 0px;
@@ -87,28 +98,49 @@ section.section1.billing h3 {
     float: none;
 }
 
-li{
+li {
     position: relative;
 }
 
-.dropdown-menu .dropdown-to{
+.dropdown-menu .dropdown-to {
     display: block;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .dropdown-to:hover {
     color: rgb(90, 90, 87)
 }
-.dropdown-menu{
+
+
+/* .dropdown-menu{
     float: right;
     position: absolute;
     height: 135px;
     background-color: #5bb4f2;
     width: 180px;
+} */
+
+.dropdown-menu {
+    float: right;
+    position: absolute;
+    height: 135px;
+    background-color: transparent;
+    width: 180px;
+    border: solid 1px white;
+    padding-top: 14px;
 }
+
+.black .dropdown-menu {
+    background-color: white;
+    border: solid 1px whitesmoke;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
 .googleplaybutton {
-    display:none;
+    display: none;
 }
+
 @media (max-width: 1366px) {
     .hero.mobileapp {
         padding-top: 11.5vw;
@@ -117,16 +149,17 @@ li{
         display: none;
     }
     .googleplaybutton {
-        display:block;
+        display: block;
         text-align: center;
         margin: auto;
     }
 }
+
 @media (max-width: 642px) {
     .hero.mobileapp {
         padding-top: 24.5vw;
     }
-    .hero__wrapper{
+    .hero__wrapper {
         height: auto;
         margin-top: 25px;
     }
@@ -138,18 +171,15 @@ li{
         margin: 20px auto;
         width: 100%;
         position: relative;
-
     }
     .embeded_video iframe {
-        width:100% !important;
+        width: 100% !important;
         height: 250px !important;
     }
-
     .hero .button__box {
         margin-top: 1rem;
     }
     .mobileapp-page .button.button--dark-blue.f--white {
-        display:none;
+        display: none;
     }
 }
-
