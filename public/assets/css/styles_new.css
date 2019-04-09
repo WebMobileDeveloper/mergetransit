@@ -23,6 +23,8 @@
     bottom: 0; */
     /* min-width: 100%;
     min-height: 100%; */
+    min-width: 100vw;
+    min-height: 100vh;
     display: block;
     position: absolute;
     left: 50%;
@@ -1156,14 +1158,19 @@ h2 span {
     width: calc(100% - 50px);
 }
 
-.faq a {
+.faq a.link {
+    color: #07C;
+    font-weight: 600;
+}
+
+.faq a.collapse-button {
     width: 40px;
     height: 40px;
     display: inline-block;
     background: url(../../assets/images/buttons/opened.jpg) no-repeat center center;
 }
 
-.faq a.collapsed {
+.faq a.collapse-button.collapsed {
     background: url(../../assets/images/buttons/collapsed.jpg) no-repeat center center;
 }
 
@@ -2027,8 +2034,8 @@ ul li:hover>ul {
 .direction .image,
 .apps .image,
 .mobile .image,
-.faq a,
-.faq a.collapsed {
+.faq a.collapse-button,
+.faq a.collapse-button.collapsed {
     -webkit-background-size: auto 100%;
     -moz-background-size: auto 100%;
     -o-background-size: auto 100%;
@@ -2507,7 +2514,7 @@ ul li:hover>ul {
         width: 55px;
         height: 20px;
     }
-    .faq a {
+    .faq a.collapse-button {
         width: 38px;
         height: 38px;
     }
@@ -2565,7 +2572,7 @@ ul li:hover>ul {
         width: 50px;
         height: 18px;
     }
-    .faq a {
+    .faq a.collapse-button {
         width: 36px;
         height: 36px;
     }
@@ -2635,7 +2642,7 @@ ul li:hover>ul {
         width: 45px;
         height: 16px;
     }
-    .faq a {
+    .faq a.collapse-button {
         width: 34px;
         height: 34px;
     }
@@ -2671,8 +2678,8 @@ ul li:hover>ul {
     .direction .image,
     .apps .image,
     .mobile .image,
-    .faq a,
-    .faq a.collapsed {
+    .faq a.collapse-button,
+    .faq a.collapse-button.collapsed {
         -webkit-background-size: 90% auto;
         -moz-background-size: 90% auto;
         -o-background-size: 90% auto;
@@ -2743,7 +2750,7 @@ ul li:hover>ul {
     .download .image img {
         width: 400px;
     }
-    .faq a {
+    .faq a.collapse-button {
         width: 34px;
         height: 34px;
     }
@@ -2920,7 +2927,7 @@ ul li:hover>ul {
     .download .image img {
         width: 400px;
     }
-    .faq a {
+    .faq a.collapse-button {
         width: 34px;
         height: 34px;
     }
@@ -3164,7 +3171,7 @@ ul li:hover>ul {
     .download .image img {
         width: 300px;
     }
-    .faq a {
+    .faq a.collapse-button {
         width: 34px;
         height: 34px;
     }

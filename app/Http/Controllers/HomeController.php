@@ -43,18 +43,16 @@ class HomeController extends Controller
                 $data['hide_app_section'] = true;
             }
             if ($url=='faq') {
-                $data['faqs']=[
-                    ['question'=>"Lorem Ipsum is simply dummy text of the printing and typesetting industry?",
-                    'answer'=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."],
-                    ['question'=>"How does Merge Transit vet carriers and drivers?",
-                    'answer'=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."],
-                    ['question'=>"Are the carriers required to have cargo liability insurance?",
-                    'answer'=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."],
-                    ['question'=>"What if there is damage to my cargo?",
-                    'answer'=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."],
-                    ['question'=>"Where do I find my load number?",
-                    'answer'=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."]
-                ];
+                $faqs=DB::table('faq')->get()->toArray();   
+                for($i=0; $i<count($faqs); $i++){
+                    $faqs[$i]->groups=DB::table('faq_ans_group')->where('faq_id', $faqs[$i]->id)->get()->toArray();  
+                    for($j=0; $j<count($faqs[$i]->groups); $j++){
+                        $faqs[$i]->groups[$j]->answers=DB::table('faq_answers')->where('group_id', $faqs[$i]->groups[$j]->id)->get()->toArray();      
+                    }                  
+                }               
+
+                $data['faqs']=$faqs;
+                // dd($data['faqs']);
             }
             return view($url, $data);
         } else {
