@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-md-4">
                 <div class="pricing-box">
                     <h3 class="f--black-blue">Full Mobile/Web TMS</h3>
                     <h3 class="f--red">free</h3>
@@ -25,7 +25,7 @@
                     <p>TruckersCast not included.</p>
                 </div>
             </div>
-            <div class="col-lg-4  col-md-6">
+            <div class="col-md-4">
                 <div class="pricing-box">
                     <h3 class="f--black-blue">Organization Service</h3>
                     <h3 class="f--red">$99 per month</h3>
@@ -38,7 +38,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 offset-md-3">
+            <div class="col-md-4">
                 <div class="pricing-box">
                     <h3 class="f--black-blue">Optimization Program</h3>
                     <h3 class="f--red">$125 per week</h3>

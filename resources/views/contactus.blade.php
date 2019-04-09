@@ -7,8 +7,7 @@
 			<div class="col-12">
 				<h1 class="big">GET IN TOUCH</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					Find out more about our services and team today.
 				</p>
 			</div>
 		</div>

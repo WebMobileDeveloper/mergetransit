@@ -50,7 +50,7 @@
 
 <body class="smoothscroll enable-animation">
 
-	<div class="preloader"></div>
+	{{-- <div class="preloader"></div> --}}
 
 	<!-- header -->
 	<header class="header {{isset($white_header)?'black':'white'}}">
@@ -194,21 +194,14 @@
 						</div>
 
 					</div>
-				</div>
-				{{--
-				<div class="col-md-3">
-
-				</div>
-				<div class="col-md-2">
-
-				</div> --}}
+				</div>				
 			</div>
 		</div>
 	</footer>
 	<section id="social" class="social">
 		<div class="container home-content">
 			<div class="row">
-				<div class="col-md-8 col-sm-6 col-4">
+				<div class="col-md-7 col-sm-6 col-4">
 					<a href="https://www.facebook.com/MergeTransit/">
 						<i class="fab fa-facebook-f"></i>
 					</a>
@@ -219,7 +212,7 @@
 						<i class="fab fa-youtube"></i>
 					</a>
 				</div>
-				<div class="col-md-4 col-sm-6 col-8">
+				<div class="col-md-5 col-sm-6 col-8">
 					<span>Copyright © 2019 QualityPixels. All rights reserved.</span>
 				</div>
 			</div>

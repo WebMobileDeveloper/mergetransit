@@ -4,7 +4,7 @@ $("body").on("click", ".hamburger", function(e) {
         $(".header nav").removeClass("open")
     }, 600)) : ($(".header nav").css("animation-name", "show-menu"), $(".header nav").addClass("open"))
 }), setTimeout(function() {
-    $(".preloader").hide()
+    // $(".preloader").hide()
 }, 4e3), $(".testimonials .row").masonry({
     itemSelector: ".testimonials__item"
 });

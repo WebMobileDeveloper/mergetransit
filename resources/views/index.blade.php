@@ -23,8 +23,7 @@
                             </a>
                             <a href="/service#optymization" class="button button--dark-blue f--white">
                                 Optimization
-                            </a> 
-                            --}}
+                            </a> --}}
                             <a href="https://play.google.com/store/apps/details?id=com.cleaningapp" class="get">
                                 <img src="{{asset(isset($white_header)? 'assets/images/icon-google-black.png' : 'assets/images/icon-google-white.png')}}" alt="">
                             </a>
@@ -36,7 +35,11 @@
                 </div>
             </div>
             <button class="scroll"><div class="ball"></div></button>
-            <div class="background"></div>
+            <div class="background">
+                <video autoplay muted loop id="myVideo">
+                    <source src="{{asset('assets/images/backgrounds/back.mp4')}}" type="video/mp4">
+                  </video>
+            </div>
         </div>
     </div>
 </section>

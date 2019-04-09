@@ -17,6 +17,20 @@
     /* Legacy iOS */
 }
 
+#myVideo {
+    /* position: fixed;
+    right: 0;
+    bottom: 0; */
+    /* min-width: 100%;
+    min-height: 100%; */
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 1; */
+}
+
 * {
     /* font-size: 1rem; */
     box-sizing: border-box;
@@ -448,7 +462,7 @@ h2 span {
 
 .header nav {
     float: right;
-    margin-top: 4px;
+    margin-top: 10px;
 }
 
 .header nav ul {
@@ -550,8 +564,8 @@ h2 span {
     background: #67bcf6;
     background: linear-gradient(to bottom, #67bcf6 0, #0d85d7 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='$gradientTop', endColorstr=' $gradientBottom', GradientType=0);
-    -webkit-animation: 2s preloader 2s both;
-    animation: 2s preloader 2s both;
+    /* -webkit-animation: 2s preloader 2s both;
+    animation: 2s preloader 2s both; */
 }
 
 .home-content {
@@ -610,6 +624,7 @@ h2 span {
     font-family: Bebas Neue;
     font-size: 110px;
     letter-spacing: 0.04em;
+    text-shadow: 0 0 3px #03030399;
 }
 
 .hero .title.small {
@@ -619,6 +634,7 @@ h2 span {
 .hero .sub-title {
     font-weight: 500;
     font-size: 22px;
+    text-shadow: 1px 1px 2px #050505;
 }
 
 .hero .get {
@@ -930,12 +946,12 @@ h2 span {
 /* service-carousel section */
 
 .service-carousel {
-    padding-bottom: 3vw;
+    padding-bottom: 30px;
 }
 
 .service-carousel .col-sm-6 {
-    padding-top: 5vw;
-    height: 20vw;
+    padding-top: 50px;
+    height: 300px;
 }
 
 .carousel-inner {
@@ -1086,7 +1102,7 @@ h2 span {
     padding: 0 2vw;
 }
 
-.pricing .col-lg-4 {
+.pricing .col-md-4 {
     padding: 3vw 15px;
 }
 
@@ -2449,16 +2465,10 @@ ul li:hover>ul {
 
 */
 
-@media (min-width: 1920px) {
-    body {
-        font-size: 25.6px;
-    }
-}
-
 @media (max-width: 1680px) {
-    body {
+    /* body {
         font-size: 25px;
-    }
+    } */
     h1 {
         font-size: 5.6rem;
     }
@@ -2507,9 +2517,9 @@ ul li:hover>ul {
 }
 
 @media (max-width: 1440px) {
-    body {
-        font-size: 22.4px;
-    }
+    /* body {
+        font-size: 22px;
+    } */
     h1 {
         font-size: 5rem;
     }
@@ -2572,9 +2582,9 @@ ul li:hover>ul {
 }
 
 @media (max-width: 1200px) {
-    body {
+    /* body {
         font-size: 21px;
-    }
+    } */
     h1 {
         font-size: 4.5rem;
     }
@@ -2651,44 +2661,26 @@ ul li:hover>ul {
     .social span {
         font-size: 14px;
     }
-    /* origin */
-    /* .features .container {
-        max-width: 100%;
-        padding: 0 3rem;
-    }
-    .features .icon--1,
-    .features .icon--4 {
-        top: 20%;
-        left: 10%;
-    }
-    .features .icon--2,
-    .features .icon--5 {
-        top: 50%;
-        left: 5%;
-    }
-    .features .icon--3,
-    .features .icon--6 {
-        bottom: 64px;
-        left: 10%;
-    }
-    .features .icon--4 {
-        left: unset;
-        right: 10%;
-    }
-    .features .icon--5 {
-        left: unset;
-        right: 5%;
-    }
-    .features .icon--6 {
-        left: unset;
-        right: 10%;
-    }
-    .features__nav {
-        left: 30%;
-    } */
 }
 
-@media (max-width: 992px) {
+@media all and (orientation: portrait) {
+    .tracking .image,
+    .know .image,
+    .custom .image,
+    .invoice .image,
+    .direction .image,
+    .apps .image,
+    .mobile .image,
+    .faq a,
+    .faq a.collapsed {
+        -webkit-background-size: 90% auto;
+        -moz-background-size: 90% auto;
+        -o-background-size: 90% auto;
+        background-size: 90% auto;
+    }
+}
+
+@media (max-width: 991px) {
     body {
         font-size: 18px;
     }
@@ -2841,88 +2833,9 @@ ul li:hover>ul {
     } */
 }
 
-
-/* @media (max-width: 1200px) {
-    body {
-        font-size: 19px;
-    }
-    .hero .title {
-        font-size: 80px;
-    }
-    .hero .title.small {
-        font-size: 60px;
-    }
-    .hero .sub-title {
-        font-size: 16px;
-    }
-    .hero .scroll .ball {
-        width: 30px;
-        height: 13px;
-    }
-    .hero .phone img {
-        position: relative;
-        width: 200px;
-        top: 100px;
-    }
-    .hero .phone .gif {
-        position: relative;
-        width: 175px;
-        left: 12px;
-        top: -265px;
-    }
-    .cheap h2 span {
-        display: none;
-    }
-    .cheap h3 span {
-        display: none;
-    }
-    .steps h2 span {
-        display: none;
-    }
-    .info h2 span {
-        display: none;
-    }
-    .services__item p {
-        height: 320px;
-    }
-    .features__nav {
-        left: 40%;
-    }
-    .section-full h2 span {
-        font-size: 20rem;
-        left: -48px;
-        top: -35px;
-    }
-    .section-full h2.principles span {
-        font-size: 13rem;
-        left: -56px;
-        top: 87px;
-    }
-    .google h2 {
-        font-size: 5rem;
-    }
-} */
-
 @media (min-width: 769px) {
     .hamburger {
         display: none;
-    }
-}
-
-@media all and (orientation: portrait) {
-    .tracking .image,
-    .know .image,
-    .custom .image,
-    .invoice .image,
-    .direction .image,
-    .apps .image,
-    .mobile .image,
-    .faq a,
-    .faq a.collapsed {
-        -webkit-background-size: 90% auto;
-        -moz-background-size: 90% auto;
-        -o-background-size: 90% auto;
-        background-size: 90% auto;
     }
 }
 
@@ -3160,140 +3073,15 @@ ul li:hover>ul {
         border: solid 1px #fff !important;
         color: #fff !important;
     }
-    /* /- mobile menu style */
-    /* .button {
-        font-size: 1.4rem;
-    }
-    h1 {
-        font-size: 2.4rem;
-    }
-    h2.big {
-        font-size: 2.4rem;
-    }
-    h3 {
-        font-size: 2.4rem;
-    }
-    strong {
-        font-size: 1.2rem;
-    }
-    p {
-        font-size: 1.4rem;
-    }
-    .header nav ul li a {
-        font-size: 2.4rem;
-    }
-    .hero {
-        padding: 5rem 3rem 0;
-    }
-    .hero .background {
-        background-color: #5cb5f3 !important;
-        background: linear-gradient(to bottom, #5cb5f3 0, #5cb5f3 100%);
-        width: 100%;
-        height: 100vh;
-    }
-    .cheap .phone {
-        order: 1;
-    }
-    .steps {
-        padding-top: 5rem;
-    }
-    .steps .step {
-        min-height: auto;
-    }
-    .steps .sticky {
-        display: none;
-    }
-    .steps .col-6 {
-        width: 100%;
-        max-width: 100%;
-        flex: 0 0 100%;
-    }
-    .testimonials {
-        padding-bottom: 5rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
-    .testimonials h2 span {
-        display: none;
-    }
-    .footer img {
-        margin-bottom: 3rem;
-    }
-    .features .icon {
-        display: none;
-    }
-    .features__nav {
-        left: 10%;
-        right: unset;
-    }
-    .features .infoBar {
-        display: none;
-    }
-    .section-full ul li {
-        font-size: 1.4rem;
-        margin-bottom: 0rem;
-    }
-    .contact .container {
-        background-color: #5cb5f3;
-    }
-    .contact h2 {
-        font-size: 2.4rem;
-    }
-    .contact__wrapper {
-        flex-wrap: wrap;
-        padding: 0 15px;
-    }
-    .contact__wrapper:before {
-        display: none;
-    }
-    .contact__wrapper .col-6 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .contact__wrapper form {
-        margin-top: 2.5rem;
-    }
-    .google {
-        background-color: #5cb5f3 !important;
-        background: linear-gradient(to bottom, #5cb5f3 0, #5cb5f3 100%);
-    }
-    .google h2 {
-        font-size: 3rem;
-        text-align: center;
-        width: 100%;
-    }
-    .google h2 br {
-        display: none;
-    }
-    .google .getin img {
-        display: block;
-        margin: 1rem auto;
-    }
-    .google .phone {
-        display: none;
-    }
-    .footer {
-        background-color: #b8e1f8;
-        padding: 2rem 0;
-    } */
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     body {
         font-size: 12px;
     }
     h1 {
         font-size: 2.5rem;
     }
-    /* .tracking .image,
-    .know .image,
-    .custom .image,
-    .invoice .image,
-    .direction .image,
-    .apps .image,
-    .mobile .image,
-    .faq a,
-    .faq a.collapsed */
     .tracking .image,
     .know .image,
     .custom .image,
@@ -3430,57 +3218,4 @@ ul li:hover>ul {
     .social span {
         font-size: 9px;
     }
-    /* .hero .get img {
-        width: 100%;
-    }
-    .hero .button__box .button {
-        font-size: 1.2rem;
-    }
-    .cheap p {
-        width: 100%;
-    }
-    .info p {
-        width: 100%;
-    }
-    .services__item h3 {
-        font-size: 2.4rem;
-        margin-bottom: 1rem;
-    }
-    .services__item strong {
-        font-size: 2.4rem;
-    }
-    .features h2 {
-        font-size: 2.4rem;
-    }
-    .features .phone {
-        width: 300px;
-        display: none;
-    }
-    .features .phone__screen {
-        width: 100%;
-        height: 70vh;
-        border: 2px solid #67bcf6;
-        padding-top: 4rem;
-    }
-    .features__nav {
-        flex-direction: row;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 100%;
-        justify-content: center;
-        align-items: flex-start;
-        top: 34%;
-    }
-    .contact {
-        padding: 13rem 15px 1.5rem;
-        height: auto;
-    }
-    .contact__wrapper form input,
-    .contact__wrapper form textarea {
-        width: 100%;
-    }
-    .contact__wrapper form button {
-        margin-bottom: 2rem;
-    } */
 }
