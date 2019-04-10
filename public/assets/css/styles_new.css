@@ -1159,8 +1159,8 @@ h2 span {
 }
 
 .faq a.link {
-    color: #07C;
-    font-weight: 600;
+    color: #0059CC;
+    font-weight: 500;
 }
 
 .faq a.collapse-button {
@@ -1175,8 +1175,7 @@ h2 span {
 }
 
 .faq p {
-    margin: 0px;
-    padding: 0 7rem 0 25px;
+    padding: 0 50px 0 25px;
 }
 
 

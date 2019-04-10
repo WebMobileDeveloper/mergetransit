@@ -43,15 +43,15 @@ class HomeController extends Controller
                 $data['hide_app_section'] = true;
             }
             if ($url=='faq') {
-                $faqs=DB::table('faq')->get()->toArray();   
-                for($i=0; $i<count($faqs); $i++){
-                    $faqs[$i]->groups=DB::table('faq_ans_group')->where('faq_id', $faqs[$i]->id)->get()->toArray();  
-                    for($j=0; $j<count($faqs[$i]->groups); $j++){
-                        $faqs[$i]->groups[$j]->answers=DB::table('faq_answers')->where('group_id', $faqs[$i]->groups[$j]->id)->get()->toArray();      
-                    }                  
-                }               
+                // $faqs=DB::table('faq')->get()->toArray();   
+                // for($i=0; $i<count($faqs); $i++){
+                //     $faqs[$i]->groups=DB::table('faq_ans_group')->where('faq_id', $faqs[$i]->id)->get()->toArray();  
+                //     for($j=0; $j<count($faqs[$i]->groups); $j++){
+                //         $faqs[$i]->groups[$j]->answers=DB::table('faq_answers')->where('group_id', $faqs[$i]->groups[$j]->id)->get()->toArray();      
+                //     }                  
+                // }               
 
-                $data['faqs']=$faqs;
+                // $data['faqs']=$faqs;
                 // dd($data['faqs']);
             }
             return view($url, $data);
