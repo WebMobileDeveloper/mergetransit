@@ -952,7 +952,8 @@ h2 span {
 }
 
 .service-carousel .col-sm-6 {
-    padding-top: 50px;
+    padding-top: 100px;
+    text-align: center;
     height: 300px;
 }
 
@@ -3153,6 +3154,7 @@ ul li:hover>ul {
         height: 16px;
     }
     .service-carousel .col-sm-6 {
+        padding-top: 20vw;
         height: 50vw;
     }
     .carousel-item .image {

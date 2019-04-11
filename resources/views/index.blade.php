@@ -206,10 +206,10 @@
                                     <h2 class="small">
                                         Dedicated Carrier Agent to perform all Dispatch Duties
                                     </h2>
-                                    <p>
+                                    {{-- <p>
                                         No more using 3 or more apps for business management. We have it all in one place for you. Scan BOL's, Receipts, etc; without
                                         needing to go anywhere else.
-                                    </p>
+                                    </p> --}}
                                 </div>
                                 <div class="col-sm-6 image"></div>
                             </div>
@@ -220,10 +220,10 @@
                                     <h2 class="small">
                                         Optimized data backed dispatching using SONAR, RateView, etc.
                                     </h2>
-                                    <p>
+                                    {{-- <p>
                                         No more using 3 or more apps for business management. We have it all in one place for you. Scan BOL's, Receipts, etc; without
                                         needing to go anywhere else.
-                                    </p>
+                                    </p> --}}
                                 </div>
                                 <div class="col-sm-6 image"></div>
                             </div>
@@ -234,10 +234,10 @@
                                     <h2 class="small">
                                         Improved total mile RPM through strategic routing
                                     </h2>
-                                    <p>
+                                    {{-- <p>
                                         No more using 3 or more apps for business management. We have it all in one place for you. Scan BOL's, Receipts, etc; without
                                         needing to go anywhere else.
-                                    </p>
+                                    </p> --}}
                                 </div>
                                 <div class="col-sm-6 image"></div>
                             </div>
@@ -248,10 +248,10 @@
                                     <h2 class="small">
                                         Handle negotations and broker communication under carrier guidance
                                     </h2>
-                                    <p>
+                                    {{-- <p>
                                         No more using 3 or more apps for business management. We have it all in one place for you. Scan BOL's, Receipts, etc; without
                                         needing to go anywhere else.
-                                    </p>
+                                    </p> --}}
                                 </div>
                                 <div class="col-sm-6 image"></div>
                             </div>
@@ -262,10 +262,10 @@
                                     <h2 class="small">
                                         Will handle all paperwork needed for your business and input into Merge TMS.
                                     </h2>
-                                    <p>
+                                    {{-- <p>
                                         No more using 3 or more apps for business management. We have it all in one place for you. Scan BOL's, Receipts, etc; without
                                         needing to go anywhere else.
-                                    </p>
+                                    </p> --}}
                                 </div>
                                 <div class="col-sm-6 image"></div>
                             </div>
