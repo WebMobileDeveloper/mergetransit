@@ -46,11 +46,24 @@
 
 	<link rel="stylesheet" href="{{asset('assets/css/styles_new.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
+	<script>
+		(function () {
+		  var s = document.createElement('script');
+		  s.type = 'text/javascript';
+		  s.async = true;
+		  s.src = 'https://app.termly.io/embed.min.js';
+		  s.id = 'e653ed09-d63f-435d-bef9-ed57042e57f7';
+		  s.setAttribute("data-name", "termly-embed-banner");
+		  var x = document.getElementsByTagName('script')[0];
+		  x.parentNode.insertBefore(s, x);
+		})();
+	</script>
 </head>
 
 <body class="smoothscroll enable-animation">
 
-	{{-- <div class="preloader"></div> --}}
+	{{--
+	<div class="preloader"></div> --}}
 
 	<!-- header -->
 	<header class="header {{isset($white_header)?'black':'white'}}">
@@ -194,7 +207,7 @@
 						</div>
 
 					</div>
-				</div>				
+				</div>
 			</div>
 		</div>
 	</footer>
